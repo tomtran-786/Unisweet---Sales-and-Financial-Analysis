@@ -1,14 +1,18 @@
 from __future__ import annotations
 
 import hashlib
+import importlib.util
 from pathlib import Path
 
 import pandas as pd
 
-from unisweet_analysis.sales_master import build_sales_master
-
-
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
+SCRIPT_PATH = PROJECT_ROOT / "scripts" / "build_sales_master.py"
+SPEC = importlib.util.spec_from_file_location("build_sales_master", SCRIPT_PATH)
+assert SPEC and SPEC.loader
+MODULE = importlib.util.module_from_spec(SPEC)
+SPEC.loader.exec_module(MODULE)
+build_sales_master = MODULE.build_sales_master
 
 
 def _hash(path: Path) -> str:

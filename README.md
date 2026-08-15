@@ -1,64 +1,81 @@
-# UniSweet Sales Master and Finance Story
+# UniSweet Sales Master
 
-Project chuẩn hóa các file Customer Sales và Master Mapping thành một file master duy nhất để làm nguồn cho các script phân tích tiếp theo.
-
-```text
-Customer Sales workbooks + Master Mapping
-                    ↓
-         outputs/sales_master.csv
-                    ↓
-        User-owned analysis scripts
-
-P&L Table.xlsx và Market Report.xlsx được giữ nguyên như nguồn độc lập.
-```
-
-Storyline, metric definitions, công thức, dimension và guardrails nằm trong [STORYLINE_METRIC_FRAMEWORK.md](STORYLINE_METRIC_FRAMEWORK.md).
-
-## Tạo Sales master
-
-Chạy từ project root:
-
-```bash
-.venv/bin/python scripts/build_sales_master.py
-```
-
-Hoặc sau khi cài package/refresh environment:
-
-```bash
-unisweet-sales-master --project-root .
-```
-
-Output mặc định:
+Project chỉ có một chức năng xử lý dữ liệu: gộp toàn bộ Customer Sales với Master Mapping thành một file CSV duy nhất.
 
 ```text
+inputs/sales/Cust *.xlsx
+             +
+inputs/mapping/Master Mapping.xlsx
+             ↓
+scripts/build_sales_master.py
+             ↓
 outputs/sales_master.csv
 ```
 
-Có thể chọn path khác:
+P&L và Market không được xử lý bằng code:
+
+- `inputs/pnl/P&L Table.xlsx`: mở và đọc trực tiếp trong Excel.
+- `inputs/market/Market Report MAT Nov'24.xlsx`: mở và đọc trực tiếp trong Excel.
+
+Storyline và các metric phù hợp với ba nguồn hiện có nằm tại [STORYLINE_METRIC_FRAMEWORK.md](STORYLINE_METRIC_FRAMEWORK.md).
+
+## Script Sales master
+
+Toàn bộ logic được viết công khai trong một file duy nhất:
+
+- [scripts/build_sales_master.py](scripts/build_sales_master.py)
+
+Script thực hiện lần lượt:
+
+1. Tự phát hiện mọi file `Cust *.xlsx`.
+2. Kiểm tra đúng tám cột Sales nguồn.
+3. Chuẩn hóa Customer Code, Brand Code, Month, Pack Type và Pack Size.
+4. Ghép GSV và Turnover về cùng một grain.
+5. Join Customer, Channel, Brand và Product Mapping.
+6. Tính Discount và hai discount rates.
+7. Gắn quality flags và source lineage.
+8. Ghi một file `outputs/sales_master.csv`.
+
+## Cài dependencies
 
 ```bash
-.venv/bin/python scripts/build_sales_master.py --output /path/to/sales_master.csv
+python -m pip install -r requirements.txt
 ```
 
-## Grain và cấu trúc master
+## Chạy script
 
-Mỗi dòng là một grain:
+Từ project root:
+
+```bash
+python scripts/build_sales_master.py
+```
+
+Chọn output khác nếu cần:
+
+```bash
+python scripts/build_sales_master.py --output /path/to/sales_master.csv
+```
+
+## Grain và cột chính
+
+Mỗi dòng của master là:
 
 ```text
 Reporting Month × Customer × Brand × Pack Type × Pack Size
 ```
 
-Master đã:
+Cột chính:
 
-- Ghép GSV và Turnover về cùng một dòng.
-- Tính `discount_keur`, `discount_pct_to` và `discount_pct_gsv`.
-- Join Customer, Channel, Brand và Product Mapping.
-- Giữ exact `product_key = pack_type|pack_size`.
-- Ghi source file/source row riêng cho GSV và Turnover.
-- Giữ toàn bộ grain, kể cả grain cần review hoặc invalid.
-- Đánh dấu `certified_for_analysis`, `data_quality_status` và `data_quality_flags`.
+- Time: `reporting_month`, `reporting_year`, `month_number`.
+- Customer/Channel: `customer_code`, `customer_name`, `channel_code`.
+- Brand: `brand_code`, `brand_name`.
+- Product: `product_key`, `product_name`, `pack_type`, `pack_size`.
+- Values: `gsv_keur`, `turnover_keur`, `discount_keur`.
+- Rates: `discount_pct_to`, `discount_pct_gsv`.
+- Quality: `certified_for_analysis`, `data_quality_status`, `data_quality_flags`.
+- Lineage: source file và source row cho GSV/Turnover.
 
-Filter mặc định cho phân tích governed:
+Đọc file bằng pandas:
 
 ```python
 import pandas as pd
@@ -68,69 +85,15 @@ sales = pd.read_csv(
     dtype={"customer_code": "string", "brand_code": "string"},
     parse_dates=["reporting_month"],
 )
-certified = sales[sales["certified_for_analysis"]]
+sales = sales[sales["certified_for_analysis"]]
 ```
 
-`customer_code` phải được đọc như string để giữ số 0 ở đầu.
-
-## Inputs
-
-### Customer Sales
-
-`inputs/sales/Cust <number>.xlsx` phải có đúng tám cột:
-
-```text
-Customer Code, Brand Code, Pack Type, Pack Size,
-Month, Year, KPI, Values
-```
-
-Script tự phát hiện mọi file phù hợp `Cust *.xlsx`; không hardcode danh sách Customer.
-
-### Mapping
-
-`inputs/mapping/Master Mapping.xlsx` gồm:
-
-- `Customer Mapping`
-- `Brand Mapping`
-- `Product Mapping`
-
-### P&L và Market
-
-Hai nguồn sau không được script Sales master chỉnh sửa:
-
-- `inputs/pnl/P&L Table.xlsx`
-- `inputs/market/Market Report MAT <Mon>'<YY>.xlsx`
-
-## Data-quality contract
-
-| Status | Ý nghĩa | Sử dụng mặc định |
-|---|---|---|
-| `VALID` | Không có quality flag | Có |
-| `REVIEW` | Grain dùng được nhưng mapping/giá trị cần chú ý | Có, kèm disclosure |
-| `INVALID` | KPI pair, mapping hoặc Gross-to-Net không đạt policy | Không |
-
-Các flag chính:
-
-- `GSV_MISSING`, `TURNOVER_MISSING`
-- `GSV_DUPLICATE`, `TURNOVER_DUPLICATE`
-- `TURNOVER_GT_GSV`
-- `GSV_NEGATIVE`, `TURNOVER_NEGATIVE`
-- `CUSTOMER_MAPPING_MISSING`, `BRAND_MAPPING_MISSING`, `PRODUCT_MAPPING_MISSING`
-- `PRODUCT_MAPPING_REVIEW`
-
-## Phạm vi project hiện tại
-
-Project chỉ duy trì hai deliverable chính:
-
-- `STORYLINE_METRIC_FRAMEWORK.md`: metric và storyline contract.
-- `outputs/sales_master.csv`: nguồn Sales phẳng cho các script phân tích tiếp theo.
-
-P&L và Market được giữ nguyên trong `inputs/` để bạn xử lý độc lập ở bước sau. Project không còn analysis pack, dashboard, story generator hoặc PowerPoint publisher.
+`customer_code` cần được đọc như string để giữ số 0 ở đầu.
 
 ## Kiểm thử
 
 ```bash
-.venv/bin/pytest
+pytest -p no:cacheprovider
 ```
 
-Tests kiểm tra schema, mapping, row counts, certified/invalid policy và bảo toàn P&L/Market.
+Tests chỉ kiểm tra Sales master và xác nhận script không làm thay đổi P&L/Market.
