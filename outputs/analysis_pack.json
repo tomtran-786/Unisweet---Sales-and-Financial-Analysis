@@ -1,0 +1,2700 @@
+{
+  "metadata": {
+    "project": "UniSweet Financial Analysis Generator",
+    "generated_at_utc": "2026-08-15T03:23:59+00:00",
+    "reporting_month": "2024-12-01",
+    "comparison_month": "2023-12-01",
+    "comparison_basis": "YOY",
+    "publication_status": "READY",
+    "critical_failure_count": 0,
+    "input_hash": "fe2674b9079d6e6d1b1577240b26ba8045143f1885d84d705c0db19489e27fae",
+    "currency": "kEUR unless stated otherwise",
+    "architecture": "Excel -> Python -> analysis pack -> dashboard / approved presentation"
+  },
+  "kpis": {
+    "current_gsv_keur": 28021.5,
+    "prior_gsv_keur": 31968.3,
+    "gsv_variance_keur": -3946.7999999999993,
+    "gsv_growth_pct": -0.1234598023667195,
+    "current_discount_keur": 5560.5,
+    "prior_discount_keur": 6969.800000000001,
+    "discount_variance_keur": -1409.300000000001,
+    "discount_growth_pct": -0.20220092398634115,
+    "current_turnover_keur": 22461.0,
+    "prior_turnover_keur": 24998.5,
+    "turnover_variance_keur": -2537.5,
+    "turnover_growth_pct": -0.10150609036542191,
+    "current_discount_pct_to": 0.24756244156538,
+    "prior_discount_pct_to": 0.27880872852371147,
+    "discount_pct_to_movement_bps": -312.46286958331484,
+    "current_pbo_keur": 85921.7450000001,
+    "pbo_variance_keur": 5197.890000000189,
+    "current_gross_margin_pct": 0.4747493662762478,
+    "current_pbo_pct_to": 0.3176354128196855
+  },
+  "gross_to_net_bridge": [
+    {
+      "step": "Prior Turnover",
+      "value_keur": 24998.5,
+      "is_total": true
+    },
+    {
+      "step": "GSV change",
+      "value_keur": -3946.7999999999993,
+      "is_total": false
+    },
+    {
+      "step": "Discount change",
+      "value_keur": 1409.300000000001,
+      "is_total": false
+    },
+    {
+      "step": "Current Turnover",
+      "value_keur": 22461.0,
+      "is_total": true
+    }
+  ],
+  "trend": [
+    {
+      "reporting_month": "2023-01-01",
+      "gsv_keur": 26774.9,
+      "discount_keur": 5696.1,
+      "turnover_keur": 21078.8
+    },
+    {
+      "reporting_month": "2023-02-01",
+      "gsv_keur": 31398.9,
+      "discount_keur": 7181.7,
+      "turnover_keur": 24217.2
+    },
+    {
+      "reporting_month": "2023-03-01",
+      "gsv_keur": 33502.0,
+      "discount_keur": 7358.599999999999,
+      "turnover_keur": 26143.4
+    },
+    {
+      "reporting_month": "2023-04-01",
+      "gsv_keur": 25345.8,
+      "discount_keur": 5731.7,
+      "turnover_keur": 19614.1
+    },
+    {
+      "reporting_month": "2023-05-01",
+      "gsv_keur": 32766.9,
+      "discount_keur": 7386.900000000001,
+      "turnover_keur": 25380.0
+    },
+    {
+      "reporting_month": "2023-06-01",
+      "gsv_keur": 32694.3,
+      "discount_keur": 7409.3,
+      "turnover_keur": 25285.0
+    },
+    {
+      "reporting_month": "2023-07-01",
+      "gsv_keur": 28364.4,
+      "discount_keur": 6114.8,
+      "turnover_keur": 22249.6
+    },
+    {
+      "reporting_month": "2023-08-01",
+      "gsv_keur": 31026.0,
+      "discount_keur": 6591.299999999999,
+      "turnover_keur": 24434.7
+    },
+    {
+      "reporting_month": "2023-09-01",
+      "gsv_keur": 31699.5,
+      "discount_keur": 6818.1,
+      "turnover_keur": 24881.4
+    },
+    {
+      "reporting_month": "2023-10-01",
+      "gsv_keur": 33459.6,
+      "discount_keur": 7264.4,
+      "turnover_keur": 26195.2
+    },
+    {
+      "reporting_month": "2023-11-01",
+      "gsv_keur": 30111.9,
+      "discount_keur": 7097.4,
+      "turnover_keur": 23014.5
+    },
+    {
+      "reporting_month": "2023-12-01",
+      "gsv_keur": 31968.3,
+      "discount_keur": 6969.8,
+      "turnover_keur": 24998.5
+    },
+    {
+      "reporting_month": "2024-01-01",
+      "gsv_keur": 30746.0,
+      "discount_keur": 6246.6,
+      "turnover_keur": 24499.4
+    },
+    {
+      "reporting_month": "2024-02-01",
+      "gsv_keur": 21480.3,
+      "discount_keur": 4577.1,
+      "turnover_keur": 16903.2
+    },
+    {
+      "reporting_month": "2024-03-01",
+      "gsv_keur": 38092.4,
+      "discount_keur": 8113.599999999999,
+      "turnover_keur": 29978.8
+    },
+    {
+      "reporting_month": "2024-04-01",
+      "gsv_keur": 26972.9,
+      "discount_keur": 6158.4,
+      "turnover_keur": 20814.5
+    },
+    {
+      "reporting_month": "2024-05-01",
+      "gsv_keur": 29875.0,
+      "discount_keur": 6961.9,
+      "turnover_keur": 22913.100000000002
+    },
+    {
+      "reporting_month": "2024-06-01",
+      "gsv_keur": 31794.899999999998,
+      "discount_keur": 7164.999999999999,
+      "turnover_keur": 24629.9
+    },
+    {
+      "reporting_month": "2024-07-01",
+      "gsv_keur": 29893.2,
+      "discount_keur": 7456.7,
+      "turnover_keur": 22436.5
+    },
+    {
+      "reporting_month": "2024-08-01",
+      "gsv_keur": 29031.2,
+      "discount_keur": 6974.300000000001,
+      "turnover_keur": 22056.9
+    },
+    {
+      "reporting_month": "2024-09-01",
+      "gsv_keur": 25652.7,
+      "discount_keur": 6399.400000000001,
+      "turnover_keur": 19253.3
+    },
+    {
+      "reporting_month": "2024-10-01",
+      "gsv_keur": 27828.1,
+      "discount_keur": 6702.099999999999,
+      "turnover_keur": 21126.0
+    },
+    {
+      "reporting_month": "2024-11-01",
+      "gsv_keur": 27032.4,
+      "discount_keur": 6773.7,
+      "turnover_keur": 20258.7
+    },
+    {
+      "reporting_month": "2024-12-01",
+      "gsv_keur": 28021.5,
+      "discount_keur": 5560.5,
+      "turnover_keur": 22461.0
+    }
+  ],
+  "brand_trend": [
+    {
+      "reporting_month": "2023-01-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 326.40000000000003
+    },
+    {
+      "reporting_month": "2023-01-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 17150.5
+    },
+    {
+      "reporting_month": "2023-01-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3601.9
+    },
+    {
+      "reporting_month": "2023-02-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 624.5
+    },
+    {
+      "reporting_month": "2023-02-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19431.0
+    },
+    {
+      "reporting_month": "2023-02-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4161.7
+    },
+    {
+      "reporting_month": "2023-03-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 675.4
+    },
+    {
+      "reporting_month": "2023-03-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 20527.5
+    },
+    {
+      "reporting_month": "2023-03-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4940.5
+    },
+    {
+      "reporting_month": "2023-04-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 1010.2
+    },
+    {
+      "reporting_month": "2023-04-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 14534.7
+    },
+    {
+      "reporting_month": "2023-04-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4069.2
+    },
+    {
+      "reporting_month": "2023-05-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 635.7
+    },
+    {
+      "reporting_month": "2023-05-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19440.4
+    },
+    {
+      "reporting_month": "2023-05-01",
+      "brand_name": "SKY",
+      "turnover_keur": 5303.9
+    },
+    {
+      "reporting_month": "2023-06-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 538.3
+    },
+    {
+      "reporting_month": "2023-06-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 20241.7
+    },
+    {
+      "reporting_month": "2023-06-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4505.0
+    },
+    {
+      "reporting_month": "2023-07-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 555.2
+    },
+    {
+      "reporting_month": "2023-07-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 17447.3
+    },
+    {
+      "reporting_month": "2023-07-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4247.1
+    },
+    {
+      "reporting_month": "2023-08-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 880.1
+    },
+    {
+      "reporting_month": "2023-08-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19290.8
+    },
+    {
+      "reporting_month": "2023-08-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4263.8
+    },
+    {
+      "reporting_month": "2023-09-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 681.2
+    },
+    {
+      "reporting_month": "2023-09-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19959.7
+    },
+    {
+      "reporting_month": "2023-09-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4240.5
+    },
+    {
+      "reporting_month": "2023-10-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 1021.0
+    },
+    {
+      "reporting_month": "2023-10-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 20465.2
+    },
+    {
+      "reporting_month": "2023-10-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4709.0
+    },
+    {
+      "reporting_month": "2023-11-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 670.7
+    },
+    {
+      "reporting_month": "2023-11-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 18230.4
+    },
+    {
+      "reporting_month": "2023-11-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4113.4
+    },
+    {
+      "reporting_month": "2023-12-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 464.4
+    },
+    {
+      "reporting_month": "2023-12-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 20688.3
+    },
+    {
+      "reporting_month": "2023-12-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3845.7999999999997
+    },
+    {
+      "reporting_month": "2024-01-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 540.0
+    },
+    {
+      "reporting_month": "2024-01-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19656.5
+    },
+    {
+      "reporting_month": "2024-01-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4302.9
+    },
+    {
+      "reporting_month": "2024-02-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 464.3
+    },
+    {
+      "reporting_month": "2024-02-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 13122.1
+    },
+    {
+      "reporting_month": "2024-02-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3316.7999999999997
+    },
+    {
+      "reporting_month": "2024-03-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 1222.0
+    },
+    {
+      "reporting_month": "2024-03-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 24032.0
+    },
+    {
+      "reporting_month": "2024-03-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4724.8
+    },
+    {
+      "reporting_month": "2024-04-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 1345.1
+    },
+    {
+      "reporting_month": "2024-04-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 15567.9
+    },
+    {
+      "reporting_month": "2024-04-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3901.5
+    },
+    {
+      "reporting_month": "2024-05-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 806.9
+    },
+    {
+      "reporting_month": "2024-05-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 18261.1
+    },
+    {
+      "reporting_month": "2024-05-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3845.1
+    },
+    {
+      "reporting_month": "2024-06-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 360.4
+    },
+    {
+      "reporting_month": "2024-06-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 19819.3
+    },
+    {
+      "reporting_month": "2024-06-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4450.2
+    },
+    {
+      "reporting_month": "2024-07-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 788.1
+    },
+    {
+      "reporting_month": "2024-07-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 17821.9
+    },
+    {
+      "reporting_month": "2024-07-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3826.5
+    },
+    {
+      "reporting_month": "2024-08-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 695.8
+    },
+    {
+      "reporting_month": "2024-08-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 17455.1
+    },
+    {
+      "reporting_month": "2024-08-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3906.0
+    },
+    {
+      "reporting_month": "2024-09-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 442.9
+    },
+    {
+      "reporting_month": "2024-09-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 14892.1
+    },
+    {
+      "reporting_month": "2024-09-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3918.2999999999997
+    },
+    {
+      "reporting_month": "2024-10-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 786.6
+    },
+    {
+      "reporting_month": "2024-10-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 16223.0
+    },
+    {
+      "reporting_month": "2024-10-01",
+      "brand_name": "SKY",
+      "turnover_keur": 4116.400000000001
+    },
+    {
+      "reporting_month": "2024-11-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 720.9
+    },
+    {
+      "reporting_month": "2024-11-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 15574.3
+    },
+    {
+      "reporting_month": "2024-11-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3963.5
+    },
+    {
+      "reporting_month": "2024-12-01",
+      "brand_name": "COBALT",
+      "turnover_keur": 696.5
+    },
+    {
+      "reporting_month": "2024-12-01",
+      "brand_name": "OLIVE",
+      "turnover_keur": 17971.0
+    },
+    {
+      "reporting_month": "2024-12-01",
+      "brand_name": "SKY",
+      "turnover_keur": 3793.5
+    }
+  ],
+  "drivers": [
+    {
+      "analysis_dimension": "BRAND",
+      "dimension_id": "CBG00001",
+      "dimension_name": "OLIVE",
+      "prior_turnover_keur": 20688.3,
+      "current_turnover_keur": 17971.0,
+      "turnover_variance_keur": -2717.2999999999993,
+      "turnover_growth_pct": -0.13134476974908516,
+      "variance_contribution_pct": 1.0708571428571425,
+      "driver_rank": 1
+    },
+    {
+      "analysis_dimension": "BRAND",
+      "dimension_id": "CBG00005",
+      "dimension_name": "COBALT",
+      "prior_turnover_keur": 464.4,
+      "current_turnover_keur": 696.5,
+      "turnover_variance_keur": 232.10000000000002,
+      "turnover_growth_pct": 0.4997846683893197,
+      "variance_contribution_pct": -0.0914679802955665,
+      "driver_rank": 2
+    },
+    {
+      "analysis_dimension": "BRAND",
+      "dimension_id": "CBG00009",
+      "dimension_name": "SKY",
+      "prior_turnover_keur": 3845.7999999999997,
+      "current_turnover_keur": 3793.5,
+      "turnover_variance_keur": -52.29999999999973,
+      "turnover_growth_pct": -0.01359925113110394,
+      "variance_contribution_pct": 0.020610837438423537,
+      "driver_rank": 3
+    },
+    {
+      "analysis_dimension": "CHANNEL",
+      "dimension_id": "DT",
+      "dimension_name": "DT",
+      "prior_turnover_keur": 18802.0,
+      "current_turnover_keur": 15495.0,
+      "turnover_variance_keur": -3307.0,
+      "turnover_growth_pct": -0.17588554409105417,
+      "variance_contribution_pct": 1.3032512315270937,
+      "driver_rank": 1
+    },
+    {
+      "analysis_dimension": "CHANNEL",
+      "dimension_id": "MT",
+      "dimension_name": "MT",
+      "prior_turnover_keur": 6196.5,
+      "current_turnover_keur": 6966.0,
+      "turnover_variance_keur": 769.5,
+      "turnover_growth_pct": 0.12418300653594772,
+      "variance_contribution_pct": -0.3032512315270936,
+      "driver_rank": 2
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000008",
+      "dimension_name": "Fudge",
+      "prior_turnover_keur": 7395.0,
+      "current_turnover_keur": 6053.5,
+      "turnover_variance_keur": -1341.5,
+      "turnover_growth_pct": -0.1814063556457065,
+      "variance_contribution_pct": 0.5286699507389162,
+      "driver_rank": 1
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000006",
+      "dimension_name": "Candies",
+      "prior_turnover_keur": 3406.0,
+      "current_turnover_keur": 2322.0,
+      "turnover_variance_keur": -1084.0,
+      "turnover_growth_pct": -0.3182618907809748,
+      "variance_contribution_pct": 0.42719211822660097,
+      "driver_rank": 2
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000007",
+      "dimension_name": "Choco",
+      "prior_turnover_keur": 3877.3,
+      "current_turnover_keur": 3397.0,
+      "turnover_variance_keur": -480.3000000000002,
+      "turnover_growth_pct": -0.12387486137260473,
+      "variance_contribution_pct": 0.18928078817733998,
+      "driver_rank": 3
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000005",
+      "dimension_name": "Bonbons",
+      "prior_turnover_keur": 4096.1,
+      "current_turnover_keur": 3672.5,
+      "turnover_variance_keur": -423.60000000000036,
+      "turnover_growth_pct": -0.1034154439588878,
+      "variance_contribution_pct": 0.16693596059113314,
+      "driver_rank": 4
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000024",
+      "dimension_name": "Macarons",
+      "prior_turnover_keur": 1514.8999999999999,
+      "current_turnover_keur": 1852.5,
+      "turnover_variance_keur": 337.60000000000014,
+      "turnover_growth_pct": 0.22285299359693722,
+      "variance_contribution_pct": -0.13304433497536952,
+      "driver_rank": 5
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000003",
+      "dimension_name": "Bliss",
+      "prior_turnover_keur": 1819.7,
+      "current_turnover_keur": 1528.5,
+      "turnover_variance_keur": -291.20000000000005,
+      "turnover_growth_pct": -0.16002637797439145,
+      "variance_contribution_pct": 0.11475862068965519,
+      "driver_rank": 6
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000015",
+      "dimension_name": "Brittle",
+      "prior_turnover_keur": 121.39999999999999,
+      "current_turnover_keur": 392.0,
+      "turnover_variance_keur": 270.6,
+      "turnover_growth_pct": 2.2289950576606263,
+      "variance_contribution_pct": -0.10664039408866996,
+      "driver_rank": 7
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000018",
+      "dimension_name": "Gummies",
+      "prior_turnover_keur": 31.900000000000002,
+      "current_turnover_keur": 263.5,
+      "turnover_variance_keur": 231.6,
+      "turnover_growth_pct": 7.260188087774294,
+      "variance_contribution_pct": -0.09127093596059113,
+      "driver_rank": 8
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000002",
+      "dimension_name": "Delights",
+      "prior_turnover_keur": 1288.4,
+      "current_turnover_keur": 1509.0,
+      "turnover_variance_keur": 220.5999999999999,
+      "turnover_growth_pct": 0.17122011797578374,
+      "variance_contribution_pct": -0.08693596059113297,
+      "driver_rank": 9
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000017",
+      "dimension_name": "Mints",
+      "prior_turnover_keur": 204.8,
+      "current_turnover_keur": 339.5,
+      "turnover_variance_keur": 134.7,
+      "turnover_growth_pct": 0.65771484375,
+      "variance_contribution_pct": -0.05308374384236453,
+      "driver_rank": 10
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "PACK|1.1KG",
+      "dimension_name": "PACK 1.1KG",
+      "prior_turnover_keur": 8878.1,
+      "current_turnover_keur": 5754.0,
+      "turnover_variance_keur": -3124.1000000000004,
+      "turnover_growth_pct": -0.35188835449026257,
+      "variance_contribution_pct": 1.2311724137931035,
+      "driver_rank": 1
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "POUCH|900GR",
+      "dimension_name": "POUCH 900GR",
+      "prior_turnover_keur": 8598.0,
+      "current_turnover_keur": 9615.0,
+      "turnover_variance_keur": 1017.0,
+      "turnover_growth_pct": 0.11828332170272149,
+      "variance_contribution_pct": -0.40078817733990146,
+      "driver_rank": 2
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "PACK|250GR",
+      "dimension_name": "PACK 250GR",
+      "prior_turnover_keur": 5422.0,
+      "current_turnover_keur": 4437.0,
+      "turnover_variance_keur": -985.0,
+      "turnover_growth_pct": -0.1816672814459609,
+      "variance_contribution_pct": 0.38817733990147785,
+      "driver_rank": 3
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "POUCH|400GR",
+      "dimension_name": "POUCH 400GR",
+      "prior_turnover_keur": 1332.3999999999999,
+      "current_turnover_keur": 1631.5,
+      "turnover_variance_keur": 299.10000000000014,
+      "turnover_growth_pct": 0.22448213749624757,
+      "variance_contribution_pct": -0.11787192118226607,
+      "driver_rank": 4
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BAR|300GR",
+      "dimension_name": "BAR 300GR",
+      "prior_turnover_keur": 0.0,
+      "current_turnover_keur": 207.0,
+      "turnover_variance_keur": 207.0,
+      "turnover_growth_pct": null,
+      "variance_contribution_pct": -0.08157635467980295,
+      "driver_rank": 5
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOTTLE|1KG",
+      "dimension_name": "BOTTLE 1KG",
+      "prior_turnover_keur": 94.3,
+      "current_turnover_keur": 237.0,
+      "turnover_variance_keur": 142.7,
+      "turnover_growth_pct": 1.5132555673382821,
+      "variance_contribution_pct": -0.05623645320197044,
+      "driver_rank": 6
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BAR|50GR",
+      "dimension_name": "BAR 50GR",
+      "prior_turnover_keur": 130.8,
+      "current_turnover_keur": 70.0,
+      "turnover_variance_keur": -60.80000000000001,
+      "turnover_growth_pct": -0.46483180428134563,
+      "variance_contribution_pct": 0.02396059113300493,
+      "driver_rank": 7
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BAR|150GR",
+      "dimension_name": "BAR 150GR",
+      "prior_turnover_keur": 40.0,
+      "current_turnover_keur": 0.0,
+      "turnover_variance_keur": -40.0,
+      "turnover_growth_pct": -1.0,
+      "variance_contribution_pct": 0.015763546798029555,
+      "driver_rank": 8
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOTTLE|200GR",
+      "dimension_name": "BOTTLE 200GR",
+      "prior_turnover_keur": 0.0,
+      "current_turnover_keur": 32.0,
+      "turnover_variance_keur": 32.0,
+      "turnover_growth_pct": null,
+      "variance_contribution_pct": -0.012610837438423646,
+      "driver_rank": 9
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOTTLE|500GR",
+      "dimension_name": "BOTTLE 500GR",
+      "prior_turnover_keur": 70.9,
+      "current_turnover_keur": 48.0,
+      "turnover_variance_keur": -22.900000000000006,
+      "turnover_growth_pct": -0.32299012693935125,
+      "variance_contribution_pct": 0.009024630541871923,
+      "driver_rank": 10
+    }
+  ],
+  "discount_leakage": [
+    {
+      "analysis_dimension": "CHANNEL",
+      "dimension_id": "DT",
+      "dimension_name": "DT",
+      "turnover_keur_current": 15495.0,
+      "turnover_keur_prior": 18802.0,
+      "turnover_variance_keur": -3307.0,
+      "current_discount_pct_to": 0.3588576960309777,
+      "prior_discount_pct_to": 0.3297734283586853,
+      "discount_pct_to_movement_bps": 290.8426767229244,
+      "discount_improvement_opportunity_keur": 450.6607275821714,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000008",
+      "dimension_name": "Fudge",
+      "turnover_keur_current": 6053.5,
+      "turnover_keur_prior": 7395.0,
+      "turnover_variance_keur": -1341.5,
+      "current_discount_pct_to": 0.36003964648550424,
+      "prior_discount_pct_to": 0.33002028397565925,
+      "discount_pct_to_movement_bps": 300.19362509844996,
+      "discount_improvement_opportunity_keur": 181.72221095334666,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "PACK|250GR",
+      "dimension_name": "PACK 250GR",
+      "turnover_keur_current": 4437.0,
+      "turnover_keur_prior": 5422.0,
+      "turnover_variance_keur": -985.0,
+      "current_discount_pct_to": 0.3476448050484562,
+      "prior_discount_pct_to": 0.32133898930284027,
+      "discount_pct_to_movement_bps": 263.0581574561591,
+      "discount_improvement_opportunity_keur": 116.7189044632978,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000005",
+      "dimension_name": "Bonbons",
+      "turnover_keur_current": 3672.5,
+      "turnover_keur_prior": 4096.1,
+      "turnover_variance_keur": -423.60000000000036,
+      "current_discount_pct_to": 0.3597004765146358,
+      "prior_discount_pct_to": 0.32999682624935917,
+      "discount_pct_to_movement_bps": 297.0365026527666,
+      "discount_improvement_opportunity_keur": 109.08665559922854,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000007",
+      "dimension_name": "Choco",
+      "turnover_keur_current": 3397.0,
+      "turnover_keur_prior": 3877.3,
+      "turnover_variance_keur": -480.3000000000002,
+      "current_discount_pct_to": 0.3600235501913453,
+      "prior_discount_pct_to": 0.3300492610837438,
+      "discount_pct_to_movement_bps": 299.74289107601527,
+      "discount_improvement_opportunity_keur": 101.82266009852239,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000006",
+      "dimension_name": "Candies",
+      "turnover_keur_current": 2322.0,
+      "turnover_keur_prior": 3406.0,
+      "turnover_variance_keur": -1084.0,
+      "current_discount_pct_to": 0.36046511627906974,
+      "prior_discount_pct_to": 0.3300058719906048,
+      "discount_pct_to_movement_bps": 304.59244288464913,
+      "discount_improvement_opportunity_keur": 70.72636523781553,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOTTLE|1KG",
+      "dimension_name": "BOTTLE 1KG",
+      "turnover_keur_current": 237.0,
+      "turnover_keur_prior": 94.3,
+      "turnover_variance_keur": 142.7,
+      "current_discount_pct_to": 0.3438818565400844,
+      "prior_discount_pct_to": 0.26935312831389185,
+      "discount_pct_to_movement_bps": 745.2872822619255,
+      "discount_improvement_opportunity_keur": 17.663308589607635,
+      "leakage_quadrant": "SALES_UP_RATE_UP"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOTTLE|500GR",
+      "dimension_name": "BOTTLE 500GR",
+      "turnover_keur_current": 48.0,
+      "turnover_keur_prior": 70.9,
+      "turnover_variance_keur": -22.900000000000006,
+      "current_discount_pct_to": 0.3645833333333333,
+      "prior_discount_pct_to": 0.3300423131170662,
+      "discount_pct_to_movement_bps": 345.41020216267094,
+      "discount_improvement_opportunity_keur": 1.6579689703808205,
+      "leakage_quadrant": "SALES_DOWN_RATE_UP"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "PACK|1.1KG",
+      "dimension_name": "PACK 1.1KG",
+      "turnover_keur_current": 5754.0,
+      "turnover_keur_prior": 8878.1,
+      "turnover_variance_keur": -3124.1000000000004,
+      "current_discount_pct_to": 0.3010948905109489,
+      "prior_discount_pct_to": 0.30236199186762935,
+      "discount_pct_to_movement_bps": -12.671013566804557,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "BRAND",
+      "dimension_id": "CBG00001",
+      "dimension_name": "OLIVE",
+      "turnover_keur_current": 17971.0,
+      "turnover_keur_prior": 20688.3,
+      "turnover_variance_keur": -2717.2999999999993,
+      "current_discount_pct_to": 0.2518502031050025,
+      "prior_discount_pct_to": 0.2766007840180199,
+      "discount_pct_to_movement_bps": -247.50580913017407,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000003",
+      "dimension_name": "Bliss",
+      "turnover_keur_current": 1528.5,
+      "turnover_keur_prior": 1819.7,
+      "turnover_variance_keur": -291.20000000000005,
+      "current_discount_pct_to": 0.0,
+      "prior_discount_pct_to": 0.13084574380392372,
+      "discount_pct_to_movement_bps": -1308.457438039237,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000009",
+      "dimension_name": "Truffles",
+      "turnover_keur_current": 572.0,
+      "turnover_keur_prior": 673.4999999999999,
+      "turnover_variance_keur": -101.49999999999989,
+      "current_discount_pct_to": 0.0,
+      "prior_discount_pct_to": 0.17787676317743153,
+      "discount_pct_to_movement_bps": -1778.7676317743153,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000001",
+      "dimension_name": "Sweeties",
+      "turnover_keur_current": 183.0,
+      "turnover_keur_prior": 250.1,
+      "turnover_variance_keur": -67.1,
+      "current_discount_pct_to": 0.0,
+      "prior_discount_pct_to": 0.12435025989604168,
+      "discount_pct_to_movement_bps": -1243.5025989604167,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BAR|50GR",
+      "dimension_name": "BAR 50GR",
+      "turnover_keur_current": 70.0,
+      "turnover_keur_prior": 130.8,
+      "turnover_variance_keur": -60.80000000000001,
+      "current_discount_pct_to": 0.09285714285714286,
+      "prior_discount_pct_to": 0.22629969418960247,
+      "discount_pct_to_movement_bps": -1334.425513324596,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "BRAND",
+      "dimension_id": "CBG00009",
+      "dimension_name": "SKY",
+      "turnover_keur_current": 3793.5,
+      "turnover_keur_prior": 3845.7999999999997,
+      "turnover_variance_keur": -52.29999999999973,
+      "current_discount_pct_to": 0.250955581916436,
+      "prior_discount_pct_to": 0.2874564459930314,
+      "discount_pct_to_movement_bps": -365.0086407659536,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BAR|150GR",
+      "dimension_name": "BAR 150GR",
+      "turnover_keur_current": 0.0,
+      "turnover_keur_prior": 40.0,
+      "turnover_variance_keur": -40.0,
+      "current_discount_pct_to": null,
+      "prior_discount_pct_to": 0.2200000000000001,
+      "discount_pct_to_movement_bps": null,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_UP_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000019",
+      "dimension_name": "Lollies",
+      "turnover_keur_current": 90.0,
+      "turnover_keur_prior": 122.5,
+      "turnover_variance_keur": -32.5,
+      "current_discount_pct_to": 0.0,
+      "prior_discount_pct_to": 0.329795918367347,
+      "discount_pct_to_movement_bps": -3297.95918367347,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "CUSTOMER",
+      "dimension_id": "00000011",
+      "dimension_name": "Nougat",
+      "turnover_keur_current": 112.5,
+      "turnover_keur_prior": 119.6,
+      "turnover_variance_keur": -7.099999999999994,
+      "current_discount_pct_to": 0.0,
+      "prior_discount_pct_to": 0.03428093645484955,
+      "discount_pct_to_movement_bps": -342.8093645484955,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "BOX|50GR",
+      "dimension_name": "BOX 50GR",
+      "turnover_keur_current": 0.0,
+      "turnover_keur_prior": 3.5,
+      "turnover_variance_keur": -3.5,
+      "current_discount_pct_to": null,
+      "prior_discount_pct_to": 0.34285714285714286,
+      "discount_pct_to_movement_bps": null,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_UP_RATE_DOWN"
+    },
+    {
+      "analysis_dimension": "PRODUCT",
+      "dimension_id": "POUCH|100GR",
+      "dimension_name": "POUCH 100GR",
+      "turnover_keur_current": 428.0,
+      "turnover_keur_prior": 428.5,
+      "turnover_variance_keur": -0.5,
+      "current_discount_pct_to": 0.2955607476635514,
+      "prior_discount_pct_to": 0.3024504084014002,
+      "discount_pct_to_movement_bps": -68.89660737848801,
+      "discount_improvement_opportunity_keur": 0.0,
+      "leakage_quadrant": "SALES_DOWN_RATE_DOWN"
+    }
+  ],
+  "pnl": [
+    {
+      "brand_name": "COBALT",
+      "gsv_keur_current": 11560.099999999997,
+      "discount_keur_current": 2209.799999999994,
+      "turnover_keur_current": 9350.300000000003,
+      "supply_chain_cost_keur_current": 4207.635000000001,
+      "gross_profit_keur_current": 5142.665000000002,
+      "marketing_expense_keur_current": 2500,
+      "pbo_keur_current": 2642.665000000002,
+      "gsv_keur_prior": 10609.20000000001,
+      "discount_keur_prior": 2232.7999999999956,
+      "turnover_keur_prior": 8376.400000000014,
+      "supply_chain_cost_keur_prior": 3853.1440000000066,
+      "gross_profit_keur_prior": 4523.256000000008,
+      "marketing_expense_keur_prior": 2000,
+      "pbo_keur_prior": 2523.2560000000076,
+      "reporting_year": 2024,
+      "prior_year": 2023,
+      "gsv_variance_keur": 950.8999999999869,
+      "gsv_growth_pct": 0.08962975530671358,
+      "discount_variance_keur": -23.00000000000182,
+      "discount_growth_pct": -0.0103009673951997,
+      "turnover_variance_keur": 973.8999999999887,
+      "turnover_growth_pct": 0.11626713146458956,
+      "supply_chain_cost_variance_keur": 354.49099999999453,
+      "supply_chain_cost_growth_pct": 0.09200045469361995,
+      "gross_profit_variance_keur": 619.4089999999942,
+      "gross_profit_growth_pct": 0.13693874501022996,
+      "marketing_expense_variance_keur": 500,
+      "marketing_expense_growth_pct": 0.25,
+      "pbo_variance_keur": 119.4089999999942,
+      "pbo_growth_pct": 0.047323378999195365,
+      "current_gross_margin_pct": 0.55,
+      "prior_gross_margin_pct": 0.54,
+      "gross_margin_movement_bps": 100.00000000000009,
+      "current_pbo_pct_to": 0.2826288996074993,
+      "prior_pbo_pct_to": 0.301233942982666,
+      "pbo_margin_movement_bps": -186.05043375166665
+    },
+    {
+      "brand_name": "OLIVE",
+      "gsv_keur_current": 275112.9,
+      "discount_keur_current": 62611.69999999981,
+      "turnover_keur_current": 212501.20000000022,
+      "supply_chain_cost_keur_current": 106250.60000000011,
+      "gross_profit_keur_current": 106250.60000000011,
+      "marketing_expense_keur_current": 35000,
+      "pbo_keur_current": 71250.60000000011,
+      "gsv_keur_prior": 293855.90000000014,
+      "discount_keur_prior": 64729.600000000326,
+      "turnover_keur_prior": 229126.2999999998,
+      "supply_chain_cost_keur_prior": 112271.8869999999,
+      "gross_profit_keur_prior": 116854.41299999991,
+      "marketing_expense_keur_prior": 50000,
+      "pbo_keur_prior": 66854.41299999991,
+      "reporting_year": 2024,
+      "prior_year": 2023,
+      "gsv_variance_keur": -18743.000000000116,
+      "gsv_growth_pct": -0.06378296301010156,
+      "discount_variance_keur": -2117.900000000518,
+      "discount_growth_pct": -0.03271918874827762,
+      "turnover_variance_keur": -16625.0999999996,
+      "turnover_growth_pct": -0.07255867178931275,
+      "supply_chain_cost_variance_keur": -6021.286999999793,
+      "supply_chain_cost_growth_pct": -0.053631297744196615,
+      "gross_profit_variance_keur": -10603.812999999805,
+      "gross_profit_growth_pct": -0.09074379587187531,
+      "marketing_expense_variance_keur": -15000,
+      "marketing_expense_growth_pct": -0.30000000000000004,
+      "pbo_variance_keur": 4396.1870000001945,
+      "pbo_growth_pct": 0.06575761872294361,
+      "current_gross_margin_pct": 0.5,
+      "prior_gross_margin_pct": 0.51,
+      "gross_margin_movement_bps": -100.00000000000009,
+      "current_pbo_pct_to": 0.3352950477456129,
+      "prior_pbo_pct_to": 0.29177974331187634,
+      "pbo_margin_movement_bps": 435.15304433736577
+    },
+    {
+      "brand_name": "SKY",
+      "gsv_keur_current": 62574.59999999994,
+      "discount_keur_current": 13921.799999999981,
+      "turnover_keur_current": 48652.79999999996,
+      "supply_chain_cost_keur_current": 31624.319999999974,
+      "gross_profit_keur_current": 17028.479999999985,
+      "marketing_expense_keur_current": 5000,
+      "pbo_keur_current": 12028.479999999985,
+      "gsv_keur_prior": 67063.19999999997,
+      "discount_keur_prior": 14499.000000000007,
+      "turnover_keur_prior": 52564.19999999996,
+      "supply_chain_cost_keur_prior": 35218.013999999974,
+      "gross_profit_keur_prior": 17346.185999999987,
+      "marketing_expense_keur_prior": 6000,
+      "pbo_keur_prior": 11346.185999999987,
+      "reporting_year": 2024,
+      "prior_year": 2023,
+      "gsv_variance_keur": -4488.600000000028,
+      "gsv_growth_pct": -0.06693089503632443,
+      "discount_variance_keur": -577.2000000000262,
+      "discount_growth_pct": -0.039809642044280724,
+      "turnover_variance_keur": -3911.4000000000015,
+      "turnover_growth_pct": -0.07441186206581674,
+      "supply_chain_cost_variance_keur": -3593.6939999999995,
+      "supply_chain_cost_growth_pct": -0.10204135872056841,
+      "gross_profit_variance_keur": -317.70600000000195,
+      "gross_profit_growth_pct": -0.018315611281926936,
+      "marketing_expense_variance_keur": -1000,
+      "marketing_expense_growth_pct": -0.16666666666666663,
+      "pbo_variance_keur": 682.293999999998,
+      "pbo_growth_pct": 0.06013421602642488,
+      "current_gross_margin_pct": 0.35,
+      "prior_gross_margin_pct": 0.33,
+      "gross_margin_movement_bps": 199.99999999999963,
+      "current_pbo_pct_to": 0.2472309918442514,
+      "prior_pbo_pct_to": 0.21585387012453333,
+      "pbo_margin_movement_bps": 313.7712171971807
+    },
+    {
+      "brand_name": "TOTAL",
+      "gsv_keur_current": 349247.6,
+      "discount_keur_current": 78743.29999999978,
+      "turnover_keur_current": 270504.30000000016,
+      "supply_chain_cost_keur_current": 142082.55500000008,
+      "gross_profit_keur_current": 128421.7450000001,
+      "marketing_expense_keur_current": 42500,
+      "pbo_keur_current": 85921.7450000001,
+      "gsv_keur_prior": 371528.3000000001,
+      "discount_keur_prior": 81461.40000000033,
+      "turnover_keur_prior": 290066.8999999998,
+      "supply_chain_cost_keur_prior": 151343.04499999987,
+      "gross_profit_keur_prior": 138723.85499999992,
+      "marketing_expense_keur_prior": 58000,
+      "pbo_keur_prior": 80723.85499999991,
+      "reporting_year": 2024,
+      "prior_year": 2023,
+      "gsv_variance_keur": -22280.700000000128,
+      "gsv_growth_pct": -0.05997039794815129,
+      "discount_variance_keur": -2718.1000000005442,
+      "discount_growth_pct": -0.03336672338065061,
+      "turnover_variance_keur": -19562.599999999627,
+      "turnover_growth_pct": -0.06744168328064881,
+      "supply_chain_cost_variance_keur": -9260.489999999787,
+      "supply_chain_cost_growth_pct": -0.061188738471594784,
+      "gross_profit_variance_keur": -10302.109999999826,
+      "gross_profit_growth_pct": -0.0742634350811534,
+      "marketing_expense_variance_keur": -15500,
+      "marketing_expense_growth_pct": -0.26724137931034486,
+      "pbo_variance_keur": 5197.890000000189,
+      "pbo_growth_pct": 0.06439100313036583,
+      "current_gross_margin_pct": 0.4747493662762478,
+      "prior_gross_margin_pct": 0.4782477938710002,
+      "gross_margin_movement_bps": -34.98427594752385,
+      "current_pbo_pct_to": 0.3176354128196855,
+      "prior_pbo_pct_to": 0.27829392116094587,
+      "pbo_margin_movement_bps": 393.41491658739625
+    }
+  ],
+  "market": [
+    {
+      "brand_name": "COBALT",
+      "internal_calendar_year": 2024,
+      "turnover_keur_current": 8869.5,
+      "turnover_keur_prior": 8083.1,
+      "internal_turnover_growth_pct": 0.09728940629214033,
+      "reporting_period": "MAT Nov 2024",
+      "sales_value_mat_meur": 50.83430099999999,
+      "sales_value_mat_1_meur": 48.942251999999996,
+      "market_value_growth_pct": 0.0386588054836543,
+      "value_share_mat": 0.11221699999999998,
+      "value_share_mat_1": 0.10662799999999999,
+      "share_movement_pp": 0.5588999999999986,
+      "sellin_vs_market_growth_gap_pp": 5.863060080848603,
+      "comparison_caveat": "Calendar-year internal sell-in versus supplied MAT market; directional context only"
+    },
+    {
+      "brand_name": "OLIVE",
+      "internal_calendar_year": 2024,
+      "turnover_keur_current": 210396.3,
+      "turnover_keur_prior": 227407.5,
+      "internal_turnover_growth_pct": -0.07480492068203559,
+      "reporting_period": "MAT Nov 2024",
+      "sales_value_mat_meur": 223.081209,
+      "sales_value_mat_1_meur": 239.70196349999998,
+      "market_value_growth_pct": -0.06933925053142076,
+      "value_share_mat": 0.49245300000000003,
+      "value_share_mat_1": 0.5222264999999999,
+      "share_movement_pp": -2.977349999999998,
+      "sellin_vs_market_growth_gap_pp": -0.5465670150614832,
+      "comparison_caveat": "Calendar-year internal sell-in versus supplied MAT market; directional context only"
+    },
+    {
+      "brand_name": "SKY",
+      "internal_calendar_year": 2024,
+      "turnover_keur_current": 48065.5,
+      "turnover_keur_prior": 52001.8,
+      "internal_turnover_growth_pct": -0.07569545669572986,
+      "reporting_period": "MAT Nov 2024",
+      "sales_value_mat_meur": 10.033496999999997,
+      "sales_value_mat_1_meur": 8.102497499999998,
+      "market_value_growth_pct": 0.23832151753209407,
+      "value_share_mat": 0.022148999999999995,
+      "value_share_mat_1": 0.017652499999999998,
+      "share_movement_pp": 0.44965,
+      "sellin_vs_market_growth_gap_pp": -31.401697422782394,
+      "comparison_caveat": "Calendar-year internal sell-in versus supplied MAT market; directional context only"
+    }
+  ],
+  "checks": [
+    {
+      "check_id": "SOURCE_FILE_COUNT",
+      "area": "Source",
+      "name": "At least 27 Sales workbooks",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Minimum 27; received 27."
+    },
+    {
+      "check_id": "SOURCE_SCHEMA",
+      "area": "Source",
+      "name": "All workbooks match the expected source contract",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Source workbooks with invalid schema: 0."
+    },
+    {
+      "check_id": "SALES_REQUIRED_VALUES",
+      "area": "Sales",
+      "name": "Required Sales fields and types are populated",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Rows with missing required values: 0."
+    },
+    {
+      "check_id": "SALES_KPI_DOMAIN",
+      "area": "Sales",
+      "name": "Only GSV and Turnover KPI labels are accepted",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Rows with unsupported KPI labels: 0."
+    },
+    {
+      "check_id": "SALES_KPI_PAIRS",
+      "area": "Sales",
+      "name": "Every business grain has one GSV and one Turnover record",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Missing KPI pairs: 0; non-zero duplicate pairs: 0."
+    },
+    {
+      "check_id": "SALES_DUPLICATE_ZERO",
+      "area": "Sales",
+      "name": "Zero-value duplicate grains are disclosed",
+      "severity": "WARNING",
+      "status": "WARN",
+      "blocking": false,
+      "exceptions": 75,
+      "details": "Zero-value duplicate grains quarantined: 75."
+    },
+    {
+      "check_id": "SALES_TURNOVER_GT_GSV",
+      "area": "Sales",
+      "name": "Turnover greater than GSV is disclosed",
+      "severity": "WARNING",
+      "status": "WARN",
+      "blocking": false,
+      "exceptions": 312,
+      "details": "Grains quarantined because Turnover exceeds GSV: 312."
+    },
+    {
+      "check_id": "MAPPING_COVERAGE",
+      "area": "Mapping",
+      "name": "Customer, Brand and exact Product mappings cover Sales",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Sales grains with incomplete mapping: 0."
+    },
+    {
+      "check_id": "MAPPING_REVIEW",
+      "area": "Mapping",
+      "name": "Ambiguous LV2 labels remain visible for review",
+      "severity": "WARNING",
+      "status": "WARN",
+      "blocking": false,
+      "exceptions": 6,
+      "details": "Product mapping rows requiring business review: 6; exact product keys remain usable."
+    },
+    {
+      "check_id": "GROSS_TO_NET_RECONCILIATION",
+      "area": "Finance",
+      "name": "GSV minus Discount equals Turnover",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Maximum certified Gross-to-Net delta: 0.000000 kEUR."
+    },
+    {
+      "check_id": "SALES_NEGATIVE_VALUES",
+      "area": "Sales",
+      "name": "Negative Sales values are disclosed",
+      "severity": "WARNING",
+      "status": "WARN",
+      "blocking": false,
+      "exceptions": 136,
+      "details": "Negative source KPI rows retained: 136."
+    },
+    {
+      "check_id": "PNL_COMPLETENESS",
+      "area": "P&L",
+      "name": "Every Brand × Year has all governed P&L metrics",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Incomplete Brand × Year P&L rows: 0."
+    },
+    {
+      "check_id": "PNL_FORMULAS",
+      "area": "P&L",
+      "name": "Gross Profit and PBO equations reconcile",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Maximum P&L formula delta: 0.000000 kEUR."
+    },
+    {
+      "check_id": "SALES_TO_PNL_RECONCILIATION",
+      "area": "P&L",
+      "name": "Source annual Sales ties to P&L by Brand and Year",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Brand × Year combinations outside tolerance: 0."
+    },
+    {
+      "check_id": "PNL_PERIOD_COVERAGE",
+      "area": "P&L",
+      "name": "P&L covers Sales Brand × Year from the first P&L year",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Sales Brand × Year combinations missing from P&L: 0."
+    },
+    {
+      "check_id": "MARKET_PERIOD",
+      "area": "Market",
+      "name": "Market period is parsed from the source filename",
+      "severity": "CRITICAL",
+      "status": "PASS",
+      "blocking": true,
+      "exceptions": 0,
+      "details": "Market rows without reporting period: 0."
+    },
+    {
+      "check_id": "MARKET_TOTAL_DISCLOSURE",
+      "area": "Market",
+      "name": "Total versus channel gaps are disclosed",
+      "severity": "WARNING",
+      "status": "WARN",
+      "blocking": false,
+      "exceptions": 8,
+      "details": "Total rows not equal to the sum of channels: 8; explicit Total rows remain the overall source."
+    }
+  ],
+  "source_manifest": [
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 1.xlsx",
+      "rows": 1018,
+      "sha256": "9be95a547049b75dca6f49e6ab11d8c0c082780b9e4b05ba65fa8f30b52563d2",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 2.xlsx",
+      "rows": 964,
+      "sha256": "d37f65c8d989494da7970e1790a8f34ffe419ef9404780b145756107212ab4b1",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 3.xlsx",
+      "rows": 1162,
+      "sha256": "62464609e00340443bf9f2b4ccb0e951c3f886970cabdc6d7755b9c31055e63b",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 4.xlsx",
+      "rows": 648,
+      "sha256": "3a3b36e9a5417c3e668d3750449364826d0cd146fbc6026449bd902587f80d63",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 5.xlsx",
+      "rows": 1210,
+      "sha256": "11c79c1b53385b0d451f581d4b0dc48f01bd0f4ce2481e7bd319adda94dfeb25",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 6.xlsx",
+      "rows": 1196,
+      "sha256": "df442a4f7bb3441818778ac67db85170e581fd8c9255ec74222107bd298a03b1",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 7.xlsx",
+      "rows": 1172,
+      "sha256": "302224bfeb3c1ea99324f52fdfaff423a5fe057c544d208fcec94e4bf95a71fc",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 8.xlsx",
+      "rows": 1234,
+      "sha256": "c009d9a6c23933641729416e34e4b18c25ae045a3473c1d02d0628329b5a447d",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 9.xlsx",
+      "rows": 714,
+      "sha256": "fd14313911f55a537c2fd627e8df6fecd87c3b96e0a164d9d4e6b9f1ef6f3f90",
+      "modified_at_utc": "2026-05-07T05:36:28+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 10.xlsx",
+      "rows": 832,
+      "sha256": "17d5dec7156a3d6096f1de024740d163c3247f020810a6fa02420fd7659f6ca0",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 11.xlsx",
+      "rows": 1008,
+      "sha256": "515b937300f5685a550e6264208975589ee07ff213d942b240910ea06fdb231f",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 12.xlsx",
+      "rows": 104,
+      "sha256": "6b4ec97f069dc2b043b615ed92a1026ce8e68a7a5f49060280aa55e3b961f590",
+      "modified_at_utc": "2024-12-10T06:28:16+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 13.xlsx",
+      "rows": 4,
+      "sha256": "2ac2ef93c51ed3a18f5cc8e7dfc6d99164f97e102ac9f72cd411be29b27c2073",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 14.xlsx",
+      "rows": 474,
+      "sha256": "d23692c34ef504de95079b67ce3e7cd98e89b8609bb8fbe4f8bb2ae4fc7c45ae",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 15.xlsx",
+      "rows": 1006,
+      "sha256": "674625705c936d6bf371c85d552193301e03cb746122230f43167c9e5dc8ec2d",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 16.xlsx",
+      "rows": 1004,
+      "sha256": "006dcbac0c446c83b8bdd62808aeb981b4baff907b6c201364054104753431d4",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 17.xlsx",
+      "rows": 1166,
+      "sha256": "b5f7ee70ecd87f8c1e8a2ef6c1091433418888daa44bffcf1a2bdcc212e3bab6",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 18.xlsx",
+      "rows": 1180,
+      "sha256": "a63c87aed92bf8cf32caea87bbb2f51f2ac527a296d7665c34560464210a3a8e",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 19.xlsx",
+      "rows": 968,
+      "sha256": "40dfedcfe16cfb5041c7a46ecebf9a144d69bd31a2cc6ff5e2bd1a0f6e96bfbe",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 20.xlsx",
+      "rows": 104,
+      "sha256": "d818b089f28f81785dbfecac94788b91bd2ab90327703f74ecf4b7bed50caa8c",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 21.xlsx",
+      "rows": 104,
+      "sha256": "071866e661a25a29b3cb31c681ffe2beaf88268db8435a2c6eee6710535c7a1e",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 22.xlsx",
+      "rows": 558,
+      "sha256": "cc11bc2985f81b595ab5abf59c0ff5d75af19f2a99d541d0878b743c22b130b6",
+      "modified_at_utc": "2024-12-10T06:33:32+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 23.xlsx",
+      "rows": 90,
+      "sha256": "32eba5562e0e37752edbf4c63d4e9fb6ba2081d6749a12b459a6b2f3565bd3f5",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 24.xlsx",
+      "rows": 1106,
+      "sha256": "fac794b2a980da3ed2984ec37122e82321b1358d9fa6d80badc54825a05d284e",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 25.xlsx",
+      "rows": 104,
+      "sha256": "b70aa299c9ff7f4916c0831f654a963b04a1b0fbd987b2c7a10ac8f9b5d9bb5e",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 26.xlsx",
+      "rows": 2,
+      "sha256": "b223f228d8232248c4c470d1c2681d38694027f482e2202d375125d7c6a6fb44",
+      "modified_at_utc": "2024-12-10T06:36:14+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "sales",
+      "path": "inputs/sales/Cust 27.xlsx",
+      "rows": 1406,
+      "sha256": "c88e6eb79b04870240be031489ee08faf0500cbd700614907fea72e83f447dca",
+      "modified_at_utc": "2026-05-07T05:36:27+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "mapping",
+      "path": "inputs/mapping/Master Mapping.xlsx",
+      "rows": 55,
+      "sha256": "bb015c4ddb54f19021c607b64755e2d79eff1c974115378efb1cba89b6b2b42b",
+      "modified_at_utc": "2026-05-21T06:38:59.419127+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "pnl",
+      "path": "inputs/pnl/P&L Table.xlsx",
+      "rows": 6,
+      "sha256": "92c5798e5fc82391ec6be7720f4fd8ecd26374eebb6779f1b490de68f21ec35a",
+      "modified_at_utc": "2026-05-21T06:04:46.397672+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    },
+    {
+      "source_type": "market",
+      "path": "inputs/market/Market Report MAT Nov'24.xlsx",
+      "rows": 27,
+      "sha256": "e1bb89a469b9b576b13782f3a529f6a48fa36a4b820236e4ab352e2126efa177",
+      "modified_at_utc": "2026-05-18T05:53:21+00:00",
+      "schema_status": "PASS",
+      "note": "OK"
+    }
+  ],
+  "quarantine": {
+    "row_count": 387,
+    "turnover_keur": 7347.6,
+    "records": [
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 1.6,
+        "turnover_keur": 2.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 0.9,
+        "turnover_keur": 1.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 1.3,
+        "turnover_keur": 1.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|400GR",
+        "gsv_keur": 1.8,
+        "turnover_keur": 2.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 1.6,
+        "turnover_keur": 2.0,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 0.6,
+        "turnover_keur": 0.8,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 1.2,
+        "turnover_keur": 1.3,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000011",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 15.2,
+        "turnover_keur": 15.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000014",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 0.1,
+        "turnover_keur": 0.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 3.1,
+        "turnover_keur": 4.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 8.8,
+        "turnover_keur": 13.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000017",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-02-01",
+        "customer_code": "00000027",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000002",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.4,
+        "turnover_keur": 0.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 13.6,
+        "turnover_keur": 13.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 10.4,
+        "turnover_keur": 10.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 17.4,
+        "turnover_keur": 17.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000010",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 0.3,
+        "turnover_keur": 0.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000010",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|400GR",
+        "gsv_keur": 25.3,
+        "turnover_keur": 60.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000010",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 33.0,
+        "turnover_keur": 64.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000010",
+        "brand_code": "CBG00009",
+        "product_key": "BOTTLE|500GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000015",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.2,
+        "turnover_keur": 0.3,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 6.5,
+        "turnover_keur": 6.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 3.4,
+        "turnover_keur": 3.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000017",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 65.4,
+        "turnover_keur": 65.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-03-01",
+        "customer_code": "00000027",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-04-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-04-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BAR|150GR",
+        "gsv_keur": 20.3,
+        "turnover_keur": 20.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-04-01",
+        "customer_code": "00000011",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 3.8,
+        "turnover_keur": 4.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-04-01",
+        "customer_code": "00000011",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 1.1,
+        "turnover_keur": 1.3,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-04-01",
+        "customer_code": "00000014",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 0.3,
+        "turnover_keur": 0.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BAR|150GR",
+        "gsv_keur": 37.5,
+        "turnover_keur": 52.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000014",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 0.8,
+        "turnover_keur": 1.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000017",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-05-01",
+        "customer_code": "00000027",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00009",
+        "product_key": "BOTTLE|500GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000017",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 14.7,
+        "turnover_keur": 17.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 8.9,
+        "turnover_keur": 10.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-06-01",
+        "customer_code": "00000027",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-07-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 5.3,
+        "turnover_keur": 7.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-07-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 1.8,
+        "turnover_keur": 2.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 21.3,
+        "turnover_keur": 21.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000003",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BAR|150GR",
+        "gsv_keur": 89.6,
+        "turnover_keur": 94.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOTTLE|500GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 6.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|200GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 6.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 6.2,
+        "turnover_keur": 12.0,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 0.0,
+        "turnover_keur": 13.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|400GR",
+        "gsv_keur": 0.3,
+        "turnover_keur": 0.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 379.4,
+        "turnover_keur": 405.8,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 22.9,
+        "turnover_keur": 24.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000014",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 1.0,
+        "turnover_keur": 1.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000017",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000018",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 0.4,
+        "turnover_keur": 0.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000024",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-08-01",
+        "customer_code": "00000027",
+        "brand_code": "CBG00009",
+        "product_key": "CONE|50GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.0,
+        "reason": "GSV_COUNT_NOT_ONE; TURNOVER_COUNT_NOT_ONE"
+      },
+      {
+        "reporting_month": "2022-09-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOTTLE|500GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 3.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-09-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|200GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 3.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-09-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "BOX|50GR",
+        "gsv_keur": 6.3,
+        "turnover_keur": 10.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-09-01",
+        "customer_code": "00000009",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 0.0,
+        "turnover_keur": 7.8,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-09-01",
+        "customer_code": "00000016",
+        "brand_code": "CBG00009",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 7.4,
+        "turnover_keur": 7.5,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 16.0,
+        "turnover_keur": 16.3,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|250GR",
+        "gsv_keur": 6.3,
+        "turnover_keur": 6.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|100GR",
+        "gsv_keur": 3.6,
+        "turnover_keur": 3.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|400GR",
+        "gsv_keur": 71.7,
+        "turnover_keur": 73.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 94.3,
+        "turnover_keur": 96.6,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00009",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 5.3,
+        "turnover_keur": 5.4,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000001",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 7.2,
+        "turnover_keur": 7.7,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 0.0,
+        "turnover_keur": 1.2,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00001",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 1.9,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00005",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "PACK|1.1KG",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.1,
+        "reason": "TURNOVER_GT_GSV"
+      },
+      {
+        "reporting_month": "2022-11-01",
+        "customer_code": "00000004",
+        "brand_code": "CBG00009",
+        "product_key": "POUCH|900GR",
+        "gsv_keur": 0.0,
+        "turnover_keur": 0.3,
+        "reason": "TURNOVER_GT_GSV"
+      }
+    ]
+  },
+  "insights": [
+    {
+      "rank": 1,
+      "code": "TURNOVER_RECOVERY",
+      "headline": "Turnover -2,538 kEUR (-10.2%) YOY despite Discount % TO moving -312 bps.",
+      "evidence": "Brand OLIVE -2,717 kEUR; Channel DT -3,307 kEUR; Product PACK 1.1KG -3,124 kEUR",
+      "financial_impact_keur": -2537.5,
+      "impact_basis": "Current-period Turnover variance versus the governed comparison period.",
+      "recommended_action": "Build a focused recovery plan around the largest Brand, Channel and Product declines; validate distribution, availability and customer sell-in before changing discount terms.",
+      "proposed_owner": "Commercial Director + Sales Operations",
+      "timing": "Before the next management review",
+      "caveat": "Dimension cuts explain the same total variance and must not be added together."
+    },
+    {
+      "rank": 2,
+      "code": "DISCOUNT_LEAKAGE",
+      "headline": "DT combines Turnover -3,307 kEUR with Discount % TO +291 bps.",
+      "evidence": "Current Discount % TO 35.9% vs 33.0%; diagnostic recovery proxy +451 kEUR.",
+      "financial_impact_keur": 450.6607275821714,
+      "impact_basis": "Return to prior-period Discount % TO at current Turnover; diagnostic proxy only.",
+      "recommended_action": "Review customer and product exceptions in this segment, confirm contract and promotion mechanics, then assign only validated recovery items.",
+      "proposed_owner": "Sales Finance + Channel Lead",
+      "timing": "Two-week leakage review",
+      "caveat": "The value is not a target, forecast or causal promotion ROI estimate."
+    },
+    {
+      "rank": 3,
+      "code": "PROFIT_QUALITY",
+      "headline": "PBO +5,198 kEUR while Gross Profit -10,302 kEUR; Marketing spend -15,500 kEUR.",
+      "evidence": "Gross Margin moved -35 bps and PBO margin +393 bps. SKY internal growth -7.6% vs market +23.8%.",
+      "financial_impact_keur": 5197.890000000189,
+      "impact_basis": "Annual P&L variance; Market comparison is contextual and period-misaligned.",
+      "recommended_action": "Separate structural productivity from deferred growth investment and require Brand-level evidence before extending marketing reductions where sell-in trails the Market.",
+      "proposed_owner": "Finance Director + Marketing Director",
+      "timing": "Next planning cycle",
+      "caveat": "P&L is annual and Market data is MAT; neither should be allocated below its supported grain."
+    }
+  ]
+}

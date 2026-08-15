@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unisweet-finance-analysis"
+version = "1.0.0"
+description = "One-shot Python financial analysis generator for UniSweet"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "openpyxl>=3.1,<4",
+  "pandas>=2.2,<4",
+  "python-pptx>=1.0,<2",
+  "xlsxwriter>=3.2,<4",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<10",
+]
+
+[project.scripts]
+unisweet-analysis = "unisweet_analysis.cli:main"
+unisweet-sales-master = "unisweet_analysis.sales_master_cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/unisweet_analysis"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q"
