@@ -3,16 +3,14 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "unisweet-finance-analysis"
+name = "unisweet-sales-master"
 version = "1.0.0"
-description = "One-shot Python financial analysis generator for UniSweet"
+description = "Flat Sales master generator for UniSweet"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
   "openpyxl>=3.1,<4",
   "pandas>=2.2,<4",
-  "python-pptx>=1.0,<2",
-  "xlsxwriter>=3.2,<4",
 ]
 
 [project.optional-dependencies]
@@ -21,7 +19,6 @@ dev = [
 ]
 
 [project.scripts]
-unisweet-analysis = "unisweet_analysis.cli:main"
 unisweet-sales-master = "unisweet_analysis.sales_master_cli:main"
 
 [tool.hatch.build.targets.wheel]

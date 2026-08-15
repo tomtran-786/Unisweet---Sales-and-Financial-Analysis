@@ -2,16 +2,15 @@ from __future__ import annotations
 
 import hashlib
 import re
-from dataclasses import dataclass, asdict
-from datetime import date, datetime, timezone
+from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
 import pandas as pd
 from openpyxl import load_workbook
-from openpyxl.utils import get_column_letter
 
-from unisweet_analysis.config import ProjectPaths, parse_market_period
+from unisweet_analysis.config import ProjectPaths
 
 
 @dataclass(frozen=True)
@@ -197,118 +196,3 @@ def load_mappings(
     workbook.close()
     source = _source(paths, paths.mapping_file, "mapping", row_count, True, "OK")
     return pd.DataFrame(customers), pd.DataFrame(brands), pd.DataFrame(products), source
-
-
-def load_pnl(paths: ProjectPaths) -> tuple[pd.DataFrame, SourceFile]:
-    values_book = load_workbook(paths.pnl_file, data_only=True, read_only=True)
-    formulas_book = load_workbook(paths.pnl_file, data_only=False, read_only=True)
-    values = values_book["PnL table"]
-    formulas = formulas_book["PnL table"]
-    metric_aliases = {
-        "GROSS SALES VALUE (GSV)": "gsv_keur",
-        "DISCOUNT": "discount_keur",
-        "TURNOVER (TO)": "turnover_keur",
-        "TOTAL SUPPLY CHAIN COST": "supply_chain_cost_keur",
-        "GROSS PROFIT (GP)": "gross_profit_keur",
-        "MARKETING EXPENSE": "marketing_expense_keur",
-        "PROFIT BEFORE OVERHEADS (PBO)": "pbo_keur",
-    }
-    metric_rows: dict[int, str] = {}
-    for row in range(1, min(values.max_row, 20) + 1):
-        label = normalize_code(values.cell(row, 1).value).upper()
-        if label in metric_aliases:
-            metric_rows[row] = metric_aliases[label]
-
-    columns: list[tuple[str, int, int]] = []
-    active_brand = ""
-    for column in range(2, values.max_column + 1):
-        brand = normalize_code(values.cell(1, column).value).upper()
-        if brand:
-            active_brand = brand
-        year = values.cell(2, column).value
-        if isinstance(year, (int, float)) and float(year).is_integer():
-            columns.append((active_brand, int(year), column))
-
-    rows = []
-    for brand, year, column in columns:
-        if brand == "TOTAL":
-            continue
-        record: dict[str, Any] = {"brand_name": brand, "reporting_year": year}
-        for row, metric in metric_rows.items():
-            record[metric] = values.cell(row, column).value
-            record[f"{metric}_formula"] = formulas.cell(row, column).value
-            record[f"{metric}_cell"] = f"{get_column_letter(column)}{row}"
-        rows.append(record)
-    expected = set(metric_aliases.values())
-    valid = bool(columns) and set(metric_rows.values()) == expected
-    values_book.close()
-    formulas_book.close()
-    source = _source(
-        paths,
-        paths.pnl_file,
-        "pnl",
-        len(rows),
-        valid,
-        "OK" if valid else "Missing governed P&L metrics or Brand × Year columns",
-    )
-    return pd.DataFrame(rows), source
-
-
-def load_market(paths: ProjectPaths) -> tuple[pd.DataFrame, SourceFile]:
-    parsed = parse_market_period(paths.market_file)
-    workbook = load_workbook(paths.market_file, data_only=True, read_only=True)
-    sheet = workbook["Market Data"]
-    rows = []
-    if parsed:
-        year, month = parsed
-        reporting_date = date(year, month, 1)
-        reporting_period = f"MAT {reporting_date.strftime('%b')} {year}"
-    else:
-        reporting_date = None
-        reporting_period = ""
-    for row in range(5, sheet.max_row + 1):
-        channel, segment, manufacturer, brand = [sheet.cell(row, column).value for column in range(2, 6)]
-        if channel is None and manufacturer is None:
-            continue
-        values = [sheet.cell(row, column).value for column in range(6, 12)]
-        manufacturer_code = normalize_code(manufacturer).upper()
-        brand_code = normalize_code(brand).upper()
-        if manufacturer_code == "CATEGORY":
-            row_type = "CATEGORY_TOTAL"
-        elif not brand_code:
-            row_type = "MANUFACTURER_TOTAL"
-        else:
-            row_type = "BRAND"
-        rows.append(
-            {
-                "reporting_period": reporting_period,
-                "reporting_date": reporting_date,
-                "channel_code": normalize_code(channel).upper(),
-                "segment_name": normalize_code(segment),
-                "manufacturer_name": manufacturer_code,
-                "brand_name": brand_code,
-                "row_type": row_type,
-                "sales_value_mat_1_meur": values[0],
-                "sales_value_mat_meur": values[1],
-                "sales_value_movement_meur": values[2],
-                "value_share_mat_1": float(values[3]) / 100 if values[3] is not None else None,
-                "value_share_mat": float(values[4]) / 100 if values[4] is not None else None,
-                "share_movement_pp": values[5],
-                "source_row": row,
-            }
-        )
-    workbook.close()
-    valid = parsed is not None and len(rows) > 0
-    source = _source(
-        paths,
-        paths.market_file,
-        "market",
-        len(rows),
-        valid,
-        "OK" if valid else "Market filename must contain a valid MAT period",
-    )
-    return pd.DataFrame(rows), source
-
-
-def source_records(sources: list[SourceFile]) -> list[dict[str, Any]]:
-    return [asdict(source) for source in sources]

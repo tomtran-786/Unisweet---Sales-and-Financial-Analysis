@@ -1,3 +1,3 @@
-"""UniSweet one-shot financial analysis generator."""
+"""UniSweet Sales master generator."""
 
 __version__ = "1.0.0"

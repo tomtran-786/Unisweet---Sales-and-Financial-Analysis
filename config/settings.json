@@ -1,6 +1,5 @@
 {
-  "project_name": "UniSweet Financial Analysis Generator",
-  "minimum_sales_file_count": 27,
+  "project_name": "UniSweet Sales Master Generator",
   "sales_required_columns": [
     "Customer Code",
     "Brand Code",
@@ -15,14 +14,7 @@
     "Gross Sales Value": "GSV",
     "Turnover": "TURNOVER"
   },
-  "market_manufacturer": "UNISWEET",
-  "critical_tolerance_keur": 0.01,
-  "market_reconciliation_tolerance_meur": 0.000001,
   "outputs": {
-    "sales_master": "sales_master.csv",
-    "analysis_pack": "analysis_pack.json",
-    "story_review": "story_review.md",
-    "presentation": "monthly_review.pptx",
-    "run_summary": "run_summary.json"
+    "sales_master": "sales_master.csv"
   }
 }

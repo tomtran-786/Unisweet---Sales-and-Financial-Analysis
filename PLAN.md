@@ -14,8 +14,6 @@ Customer Sales Excel + Master Mapping
 
 P&L và Market Data tiếp tục là nguồn độc lập, không bị chỉnh sửa hoặc đưa vào Sales master.
 
-Luồng analysis pack/story hiện hữu được giữ lại để tham chiếu, nhưng Excel dashboard đã bị loại bỏ.
-
 ## 2. Sales master contract
 
 ### Input
@@ -79,17 +77,15 @@ Storyline sử dụng Product Demand & Pack Mix Proxy thay cho physical Volume v
 
 ## 5. Output policy
 
-Được duy trì:
+Output duy nhất của code hiện tại:
 
-- `sales_master.csv`
-- `analysis_pack.json`
-- `story_review.md`
-- `run_summary.json`
-- Approved PowerPoint nếu cần
+- `outputs/sales_master.csv`
 
-Không còn tạo:
+Storyline contract được quản lý tại root:
 
-- `finance_dashboard.xlsx`
+- `STORYLINE_METRIC_FRAMEWORK.md`
+
+Analysis pack, dashboard, generated story review và PowerPoint publisher không còn thuộc project.
 
 ## 6. Definition of done
 
@@ -99,5 +95,5 @@ Không còn tạo:
 - Master có lineage và quality flags.
 - P&L và Market hashes không đổi sau khi chạy.
 - Storyline `.md` có metric, công thức, dimension, caveat và report flow.
-- Pipeline không tạo Excel dashboard.
+- Project không còn code hoặc output của analysis/dashboard/PPT pipeline cũ.
 - Automated tests pass.

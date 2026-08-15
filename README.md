@@ -118,16 +118,14 @@ Các flag chính:
 - `CUSTOMER_MAPPING_MISSING`, `BRAND_MAPPING_MISSING`, `PRODUCT_MAPPING_MISSING`
 - `PRODUCT_MAPPING_REVIEW`
 
-## Các output còn lại
+## Phạm vi project hiện tại
 
-Luồng phân tích cũ vẫn có thể tạo:
+Project chỉ duy trì hai deliverable chính:
 
-- `outputs/analysis_pack.json`
-- `outputs/story_review.md`
-- `outputs/run_summary.json`
-- `outputs/monthly_review.pptx` sau khi story được duyệt
+- `STORYLINE_METRIC_FRAMEWORK.md`: metric và storyline contract.
+- `outputs/sales_master.csv`: nguồn Sales phẳng cho các script phân tích tiếp theo.
 
-Excel dashboard cũ đã bị loại bỏ và không còn được pipeline tạo lại.
+P&L và Market được giữ nguyên trong `inputs/` để bạn xử lý độc lập ở bước sau. Project không còn analysis pack, dashboard, story generator hoặc PowerPoint publisher.
 
 ## Kiểm thử
 
@@ -135,4 +133,4 @@ Excel dashboard cũ đã bị loại bỏ và không còn được pipeline tạ
 .venv/bin/pytest
 ```
 
-Tests kiểm tra schema, mapping, row counts, certified/invalid policy, bảo toàn P&L/Market và xác nhận dashboard không được tạo.
+Tests kiểm tra schema, mapping, row counts, certified/invalid policy và bảo toàn P&L/Market.

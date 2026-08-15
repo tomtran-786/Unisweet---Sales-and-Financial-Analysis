@@ -191,8 +191,8 @@ def build_sales_master(
     master["reporting_month"] = master["reporting_month"].dt.strftime("%Y-%m-%d")
 
     target = (output_path or paths.output_dir / settings["outputs"]["sales_master"]).resolve()
-    protected = {paths.pnl_file.resolve(), paths.market_file.resolve(), paths.mapping_file.resolve()}
-    if target in protected or target.parent == paths.sales_dir.resolve():
+    inputs_root = paths.root / "inputs"
+    if target.is_relative_to(inputs_root):
         raise ValueError("The Sales master output cannot overwrite a governed input file.")
     target.parent.mkdir(parents=True, exist_ok=True)
     temporary = target.with_suffix(target.suffix + ".tmp")
