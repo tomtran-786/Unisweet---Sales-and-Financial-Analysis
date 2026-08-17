@@ -72,19 +72,42 @@ SLIDES: list[Slide] = [
     ),
 
     Slide(
+        kind="summary",
+        eyebrow="The route",
+        title="The argument runs in six steps, and the answer comes first",
+        bullets=[
+            ("1  ·  HOW BAD IS IT?", "Turnover, GSV and discount intensity — the three "
+                                     "topline KPIs, FY2024 against FY2023."),
+            ("2  ·  DID THE MARKET DO THIS TO US?", "Category and segment growth, to separate "
+                                                    "what happened to everyone from what happened to us."),
+            ("3  ·  WHERE EXACTLY DID IT BREAK?", "Down to the channel, then to one brand in "
+                                                  "that channel, month by month."),
+            ("4  ·  WHY DID PBO STILL RISE?", "Marketing and supply chain cost by brand, "
+                                              "against the Gross Profit they were meant to earn."),
+            ("5  ·  WHAT IS LEFT TO GROW?", "COBALT and SKY measured against their own markets, "
+                                            "not against each other."),
+            ("6  ·  WHAT WE ARE ASKING FOR", "Three gated actions, each with a named owner and "
+                                             "a decision due in week 0."),
+        ],
+        takeaway="Six questions, six exhibits. Read the titles alone and you have the argument.",
+        narration="Steps 1 and 2 establish how serious this is and whose problem it is. Steps 3 "
+                  "and 4 locate the damage and explain the profit result. Steps 5 and 6 are what "
+                  "we do about it.",
+        source=f"{SALES}, {PNL} and {MARKET}",
+    ),
+
+    Slide(
         kind="statement",
         eyebrow="The answer, up front",
         title="Profit rose, but the business did not get healthier",
         bullets=[
-            "Topline and share fell; lower spend alone protected PBO.",
+            "Topline and share fell. Lower spend alone protected PBO.",
             "Restore profitable growth without giving back the protected profit.",
-            "",
-            "How bad is it?  →  Did the market do this to us?  →  Where exactly did it break?  "
-            "→  Why did PBO still rise?  →  What is left to grow?",
         ],
-        takeaway="PBO improved because cost fell faster than Gross Profit—not because growth recovered.",
-        narration="I am leading with the conclusion rather than walking you through the "
-                  "analysis. The six charts that follow are evidence for that one sentence.",
+        takeaway="Every favourable line in this year's P&L is a cost line.",
+        narration="I am leading with the conclusion rather than walking you through the analysis. "
+                  "The €15.5m taken out of marketing is larger than the €10.3m of Gross Profit "
+                  "lost — that gap, and nothing about demand, is why PBO is up.",
         source=f"{SALES}, {PNL} and {MARKET}",
     ),
 

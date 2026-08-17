@@ -60,16 +60,29 @@ SOURCE_Y = 0.030
 
 # In the circulated rendering the chart is cropped to its ink and placed in the
 # band between the header and the narration, so the narration gets real space
-# instead of landing on top of the axis labels.
+# instead of landing on top of the axis labels. The bottom edge sits where it
+# does because the narration below it is set at NARRATION_PT, not because 0.20
+# is a round number - raise the type and this has to come down with it.
 ART_TOP = 0.79
-ART_BOTTOM = 0.17
+ART_BOTTOM = 0.20
 
 TITLE_PT = 23.0
 SUB_PT = 11.5
 TAKEAWAY_PT = 13.0
-NARRATION_PT = 9.5
+NARRATION_PT = 12.0
 SOURCE_PT = 8.5
 FONT = "Arial"
+
+# The one big line on a statement slide, and the character counts that keep it
+# and its follow-on lines inside the right margin. The band is the space left
+# between the takeaway above and the narration below; the block is centred in it
+# because a statement slide has no artwork to hold the lower half of the page.
+STATEMENT_PT = 26
+STATEMENT_WRAP = 58
+STATEMENT_BODY_WRAP = 132
+STATEMENT_GAP = 0.055
+STATEMENT_BAND_TOP = 0.78
+STATEMENT_BAND_BOTTOM = 0.27
 
 # --- palette, inherited ------------------------------------------------------
 INK = swd.INK
@@ -81,8 +94,11 @@ PALE = swd.SEQ_BLUE[-1]
 
 # Narration has to fit the band the chart leaves free at the bottom. Keeping it
 # tight is also the right editorial discipline - crisp beats complete.
-NARRATION_WRAP = 118
+# The wrap is a character count standing in for a width, so it is tied to the
+# point size: set larger type and the same count runs past the right margin.
+NARRATION_WRAP = round(118 * 9.5 / NARRATION_PT)
 NARRATION_MAX_LINES = 3
+NARRATION_LINE_STEP = 0.028 * NARRATION_PT / 9.5
 
 
 def fit_title(title: str) -> float:
@@ -216,11 +232,22 @@ def _pptx_bullets(spec, slide, textbox, x, width):
     """Statement, summary, actions and closing bodies."""
     top = H_IN * (0.26 if spec.kind == "statement" else 0.24)
     if spec.kind == "statement":
-        textbox(slide, x, top, width, 2.4, spec.bullets[0], 26, INK, bold=True, spacing=1.30)
-        y = top + 2.6
+        # Same fix as the PDF: advance by the headline's own height rather than a
+        # fixed 2.6 inches, which left most of a page empty under a single line,
+        # and centre the block since there is no artwork holding the lower half.
+        headline = textwrap.fill(spec.bullets[0], STATEMENT_WRAP)
+        rows = headline.count("\n") + 1
+        head_h = rows * (STATEMENT_PT * 1.30 / 72)
+        body_h = sum(0.14 if not line else (0.55 if len(line) > 110 else 0.36)
+                     for line in spec.bullets[1:])
+        band_top, band_bottom = H_IN * 0.24, H_IN * 0.82
+        top = band_top + max((band_bottom - band_top - head_h - 0.42 - body_h) / 2, 0.0)
+        textbox(slide, x, top, width, rows * 0.62 + 0.2, headline,
+                STATEMENT_PT, INK, bold=True, spacing=1.30)
+        y = top + head_h + 0.42
         for line in spec.bullets[1:]:
             if not line:
-                y += 0.20
+                y += 0.14
                 continue
             textbox(slide, x, y, width, 0.80, line, 13, MID, spacing=1.45)
             y += 0.55 if len(line) > 110 else 0.36
@@ -294,11 +321,15 @@ def build_pdf(slides: list[Slide], path: Path) -> Path:
             if spec.bullets:
                 _pdf_bullets(spec, fig)
 
+            # The closing line of every page, and part of the annotation layer:
+            # it carries the same blue as the callouts inside the charts, so
+            # on-page annotation reads as one thing whether it sits in the plot
+            # or beneath it. The takeaway keeps the hierarchy by being bold INK.
             lines = wrap_narration(spec.narration)
             if lines:
-                fig.text(LEFT, NARRATION_Y + 0.028 * (len(lines) - 1), "\n".join(lines),
-                         ha="left", va="bottom", fontsize=NARRATION_PT,
-                         color=MID, linespacing=1.45)
+                fig.text(LEFT, NARRATION_Y + NARRATION_LINE_STEP * (len(lines) - 1),
+                         "\n".join(lines), ha="left", va="bottom",
+                         fontsize=NARRATION_PT, color=ACCENT, linespacing=1.45)
 
             if spec.source:
                 fig.text(LEFT, SOURCE_Y, f"Source: {spec.source}", ha="left", va="bottom",
@@ -340,13 +371,29 @@ def _pdf_bullets(spec, fig) -> None:
     top = 0.74 if spec.kind == "statement" else 0.76
 
     if spec.kind == "statement":
-        fig.text(LEFT, top, spec.bullets[0], ha="left", va="top",
-                 fontsize=26, color=INK, fontweight="bold", linespacing=1.45)
-        y = 0.46
-        for line in spec.bullets[1:]:
-            # Nothing may run past the right margin; long lines wrap, they do
-            # not get clipped.
-            wrapped = textwrap.fill(line, 132) if line else ""
+        # A statement slide carries no artwork, so the block is measured and then
+        # centred in the band between the takeaway and the narration. The old code
+        # pinned the headline to the top and jumped to a fixed y for the rest,
+        # which left a quarter of the page empty in the middle of the argument and
+        # the rest of it empty underneath.
+        headline = textwrap.fill(spec.bullets[0], STATEMENT_WRAP)
+        rows = headline.count("\n") + 1
+        line_h = STATEMENT_PT * 1.30 / 72 / H_IN     # points -> figure fraction
+
+        body = [textwrap.fill(line, STATEMENT_BODY_WRAP) if line else "" for line in spec.bullets[1:]]
+        block = rows * line_h + STATEMENT_GAP + sum(
+            0.030 if not w else 0.055 * (w.count("\n") + 1) + 0.020 for w in body
+        )
+        top = STATEMENT_BAND_TOP - max((STATEMENT_BAND_TOP - STATEMENT_BAND_BOTTOM - block) / 2, 0.0)
+
+        fig.text(LEFT, top, headline, ha="left", va="top",
+                 fontsize=STATEMENT_PT, color=INK, fontweight="bold", linespacing=1.30)
+
+        y = top - rows * line_h - STATEMENT_GAP
+        for wrapped in body:
+            if not wrapped:                           # a blank entry is a spacer,
+                y -= 0.030                            # not a whole line of space
+                continue
             fig.text(LEFT, y, wrapped, ha="left", va="top",
                      fontsize=13, color=MID, linespacing=1.55)
             y -= 0.055 * (wrapped.count("\n") + 1) + 0.020
