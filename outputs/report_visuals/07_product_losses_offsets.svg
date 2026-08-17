@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T09:06:47.798062</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 192 459 
+L 912 459 
+L 912 108 
+L 192 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="144.254979" transform="rotate(-0 188.5 144.254979)">POUCH 900GR</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="185.16407" transform="rotate(-0 188.5 185.16407)">PACK 1.1KG</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="226.073161" transform="rotate(-0 188.5 226.073161)">POUCH 100GR</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="266.982251" transform="rotate(-0 188.5 266.982251)">PACK 250GR</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="fill: #bfbfbf; font: 11px 'Arial'; text-anchor: end" x="188.5" y="307.958374" transform="rotate(-0 188.5 307.958374)">All other products (net)</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="348.800433" transform="rotate(-0 188.5 348.800433)">BOTTLE 1KG</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="389.709524" transform="rotate(-0 188.5 389.709524)">BAR 50GR</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="188.5" y="430.618615" transform="rotate(-0 188.5 430.618615)">POUCH 400GR</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 672.194417 123.954545 
+L 224.727273 123.954545 
+L 224.727273 156.681818 
+L 672.194417 156.681818 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 672.194417 164.863636 
+L 311.85819 164.863636 
+L 311.85819 197.590909 
+L 672.194417 197.590909 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 672.194417 205.772727 
+L 536.955541 205.772727 
+L 536.955541 238.5 
+L 672.194417 238.5 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 672.194417 246.681818 
+L 593.661314 246.681818 
+L 593.661314 279.409091 
+L 672.194417 279.409091 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 672.194417 287.590909 
+L 688.83424 287.590909 
+L 688.83424 320.318182 
+L 672.194417 320.318182 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 672.194417 328.5 
+L 725.524193 328.5 
+L 725.524193 361.227273 
+L 672.194417 361.227273 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: url(#h0c6a485367); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 672.194417 369.409091 
+L 745.550305 369.409091 
+L 745.550305 402.136364 
+L 672.194417 402.136364 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: url(#h0c6a485367); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 672.194417 410.318182 
+L 879.272727 410.318182 
+L 879.272727 443.045455 
+L 672.194417 443.045455 
+z
+" clip-path="url(#p47a94e8bf3)" style="fill: url(#h0c6a485367); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_9">
+    <path d="M 672.194417 459 
+L 672.194417 108 
+" clip-path="url(#p47a94e8bf3)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="230.902877" y="143.039979" transform="rotate(-0 230.902877 143.039979)">-13.04m</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="318.033794" y="183.94907" transform="rotate(-0 318.033794 183.94907)">-10.50m</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="543.131146" y="224.858161" transform="rotate(-0 543.131146 224.858161)">-3.94m</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="599.836918" y="265.767251" transform="rotate(-0 599.836918 265.767251)">-2.29m</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: start" x="695.009845" y="306.66896" transform="rotate(-0 695.009845 306.66896)">+0.48m</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="731.699797" y="347.585433" transform="rotate(-0 731.699797 347.585433)">+1.55m</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="751.72591" y="388.494524" transform="rotate(-0 751.72591 388.494524)">+2.14m</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="885.448332" y="429.403615" transform="rotate(-0 885.448332 429.403615)">+6.04m</text>
+   </g>
+  </g>
+  <g id="text_17">
+   <text style="fill: #004c6d; font: 700 21.466667px 'Arial'; text-anchor: start" x="52.8" y="34.527062" transform="rotate(-0 52.8 34.527062)">POUCH 900GR and PACK 1.1KG drive the loss, partly offset by growing formats</text>
+  </g>
+  <g id="text_18">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">TO change, EURm | FY2024 versus FY2023 | Exact-product change</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Pack names identify formats; they do not support physical-volume inference</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p47a94e8bf3">
+   <rect x="192" y="108" width="720" height="351"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h0c6a485367" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#5886a5"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #004c6d; stroke: #004c6d; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

@@ -4,3 +4,13 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 ~$*.xlsx
+
+# Caches
+.ruff_cache/
+
+# Local tooling and agent configuration
+.claude/
+.vscode/
+
+# Third-party checkout with its own git history
+fastpdf4llm/

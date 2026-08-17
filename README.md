@@ -19,6 +19,10 @@ P&L và Market không được xử lý bằng code:
 
 Storyline và các metric phù hợp với ba nguồn hiện có nằm tại [STORYLINE_METRIC_FRAMEWORK.md](STORYLINE_METRIC_FRAMEWORK.md).
 
+## Tài liệu tham chiếu
+
+- **Storytelling with Data** (Cole Nussbaumer Knaflic, Wiley 2015): dùng làm project context cho phần trực quan hoá. Bản Markdown được chuyển đổi bằng `fastpdf4llm` và phần hình ảnh trích xuất chỉ lưu cục bộ tại `references/domain/`, **không commit** vì lý do bản quyền.
+
 ## Script Sales master
 
 Toàn bộ logic được viết công khai trong một file duy nhất:

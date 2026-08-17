@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T09:06:48.095562</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 115.2 453.6 
+L 912 453.6 
+L 912 108 
+L 115.2 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #bfbfbf; font: 700 12px 'Arial'; text-anchor: end" x="111.7" y="400.294688" transform="rotate(-0 111.7 400.294688)">OLIVE</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="111.7" y="295.567415" transform="rotate(-0 111.7 295.567415)">COBALT</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="111.7" y="190.840142" transform="rotate(-0 111.7 190.840142)">SKY</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_4">
+    <path d="M 246.487767 396 
+L 251.945713 396 
+" clip-path="url(#p53ac05b903)" style="fill: none; stroke: #d9d9d9; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 566.607767 291.272727 
+L 435.036886 291.272727 
+" clip-path="url(#p53ac05b903)" style="fill: none; stroke: #7aa6c2; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 243.346018 186.545455 
+L 773.528905 186.545455 
+" clip-path="url(#p53ac05b903)" style="fill: none; stroke: #7aa6c2; stroke-width: 4; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <path d="M 246.487767 401.244044 
+C 247.878503 401.244044 249.212466 400.691499 250.195866 399.708099 
+C 251.179265 398.7247 251.731811 397.390737 251.731811 396 
+C 251.731811 394.609263 251.179265 393.2753 250.195866 392.291901 
+C 249.212466 391.308501 247.878503 390.755956 246.487767 390.755956 
+C 245.09703 390.755956 243.763067 391.308501 242.779667 392.291901 
+C 241.796268 393.2753 241.243722 394.609263 241.243722 396 
+C 241.243722 397.390737 241.796268 398.7247 242.779667 399.708099 
+C 243.763067 400.691499 245.09703 401.244044 246.487767 401.244044 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.8"/>
+    <path d="M 566.607767 297.396452 
+C 568.231797 297.396452 569.789531 296.751217 570.937894 295.602854 
+C 572.086257 294.454491 572.731491 292.896758 572.731491 291.272727 
+C 572.731491 289.648697 572.086257 288.090963 570.937894 286.9426 
+C 569.789531 285.794237 568.231797 285.149003 566.607767 285.149003 
+C 564.983736 285.149003 563.426003 285.794237 562.27764 286.9426 
+C 561.129277 288.090963 560.484042 289.648697 560.484042 291.272727 
+C 560.484042 292.896758 561.129277 294.454491 562.27764 295.602854 
+C 563.426003 296.751217 564.983736 297.396452 566.607767 297.396452 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.8"/>
+    <path d="M 243.346018 192.669179 
+C 244.970048 192.669179 246.527782 192.023945 247.676145 190.875582 
+C 248.824508 189.727218 249.469742 188.169485 249.469742 186.545455 
+C 249.469742 184.921424 248.824508 183.363691 247.676145 182.215328 
+C 246.527782 181.066964 244.970048 180.42173 243.346018 180.42173 
+C 241.721987 180.42173 240.164254 181.066964 239.015891 182.215328 
+C 237.867528 183.363691 237.222293 184.921424 237.222293 186.545455 
+C 237.222293 188.169485 237.867528 189.727218 239.015891 190.875582 
+C 240.164254 192.023945 241.721987 192.669179 243.346018 192.669179 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.8"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 369.497872 453.6 
+L 369.497872 108 
+" clip-path="url(#p53ac05b903)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_2">
+    <path d="M 246.468488 401.477226 
+L 257.422939 401.477226 
+L 257.422939 390.522774 
+L 246.468488 390.522774 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.8"/>
+    <path d="M 428.614269 297.695344 
+L 441.459502 297.695344 
+L 441.459502 284.850111 
+L 428.614269 284.850111 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.8"/>
+    <path d="M 767.106288 192.968071 
+L 779.951521 192.968071 
+L 779.951521 180.122838 
+L 767.106288 180.122838 
+z
+" clip-path="url(#p53ac05b903)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.8"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: end" x="234.620533" y="407.52767" transform="rotate(-0 234.620533 407.52767)">Internal -7.3%</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: start" x="263.812947" y="389.901158" transform="rotate(-0 263.812947 389.901158)">Market -6.9%</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: end" x="554.740533" y="302.815163" transform="rotate(-0 554.740533 302.815163)">Internal +11.6%</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="446.90412" y="285.173885" transform="rotate(-0 446.90412 285.173885)">Market +3.9%</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: end" x="231.478784" y="198.087891" transform="rotate(-0 231.478784 198.087891)">Internal -7.4%</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="785.396139" y="180.446612" transform="rotate(-0 785.396139 180.446612)">Market +23.8%</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #004c6d; font: 700 12px 'Arial'; text-anchor: start" x="123.168" y="220.415625" transform="rotate(-0 123.168 220.415625)">SKY: reconcile sell-in, inventory and distribution first</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #004c6d; font: 700 12px 'Arial'; text-anchor: start" x="123.168" y="323.949375" transform="rotate(-0 123.168 323.949375)">COBALT: scale where incremental PBO remains attractive</text>
+   </g>
+  </g>
+  <g id="text_12">
+   <text style="fill: #004c6d; font: 700 21.466667px 'Arial'; text-anchor: start" x="52.8" y="34.527062" transform="rotate(-0 52.8 34.527062)">COBALT is the scale proof point; SKY requires diagnosis before reinvestment</text>
+  </g>
+  <g id="text_13">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">Growth, % | Internal TO is FY2024 vs FY2023; market value is MAT Nov'24 vs MAT-1</text>
+  </g>
+  <g id="text_14">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv, P&amp;L Table.xlsx and Market Report MAT Nov'24.xlsx  |  Different FY and MAT periods are juxtaposed for diagnosis, not direct reconciliation</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p53ac05b903">
+   <rect x="115.2" y="108" width="796.8" height="345.6"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T09:06:47.428846</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 67.2 459 
+L 921.6 459 
+L 921.6 108 
+L 67.2 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(155.040745 469.657812)">FY2023</text>
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(165.696214 480.234688)">TO</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(373.50004 469.657812)">Lower</text>
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(364.327384 480.234688)">GSV base</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(586.954647 469.657812)">Higher</text>
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(563.330429 480.351875)">discount intensity</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(798.73738 469.657812)">FY2024</text>
+      <text style="fill: #595959; font: 10px 'Arial'" transform="translate(809.392849 480.234688)">TO</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2"/>
+   <g id="patch_3">
+    <path d="M 106.036364 459 
+L 239.067002 459 
+L 239.067002 176.184772 
+L 106.036364 176.184772 
+z
+" clip-path="url(#p2aa20b40fd)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 320.601909 193.145314 
+L 453.632546 193.145314 
+L 453.632546 176.184772 
+L 320.601909 176.184772 
+z
+" clip-path="url(#p2aa20b40fd)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 535.167454 195.258307 
+L 668.198091 195.258307 
+L 668.198091 193.145314 
+L 535.167454 193.145314 
+z
+" clip-path="url(#p2aa20b40fd)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 749.732998 459 
+L 882.763636 459 
+L 882.763636 195.258308 
+L 749.732998 195.258308 
+z
+" clip-path="url(#p2aa20b40fd)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 239.067002 176.184772 
+L 320.601909 176.184772 
+" clip-path="url(#p2aa20b40fd)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 453.632546 193.145314 
+L 535.167454 193.145314 
+" clip-path="url(#p2aa20b40fd)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 668.198091 195.258307 
+L 749.732998 195.258307 
+" clip-path="url(#p2aa20b40fd)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 67.2 459 
+L 921.6 459 
+" style="fill: none; stroke: #d9d9d9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="172.551683" y="166.928142" transform="rotate(-0 172.551683 166.928142)">€290.1m</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 11px 'Arial'; text-anchor: middle" x="387.117228" y="208.089289" transform="rotate(-0 387.117228 208.089289)">-17.40m</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #262626; font: 700 11px 'Arial'; text-anchor: middle" x="601.682772" y="210.202282" transform="rotate(-0 601.682772 210.202282)">-2.17m</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="816.248317" y="186.001677" transform="rotate(-0 816.248317 186.001677)">€270.5m</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #004c6d; font: 700 13px 'Arial'" transform="translate(75.744 120.815156)">~89% of the decline</text>
+    <text style="fill: #004c6d; font: 700 13px 'Arial'" transform="translate(75.744 134.546812)">tracks to the lower GSV base</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #004c6d; font: 700 20.125px 'Arial'; text-anchor: start" x="52.8" y="33.550371" transform="rotate(-0 52.8 33.550371)">Lower GSV explains €17.40m of the TO decline; discount intensity explains €2.17m</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">Turnover, EURm | FY2024 versus FY2023 | The two effects reconcile the €19.56m TO gap</text>
+  </g>
+  <g id="text_12">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Rate-hold arithmetic; not a measured promotion ROI or causal estimate</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2aa20b40fd">
+   <rect x="67.2" y="108" width="854.4" height="351"/>
+  </clipPath>
+ </defs>
+</svg>

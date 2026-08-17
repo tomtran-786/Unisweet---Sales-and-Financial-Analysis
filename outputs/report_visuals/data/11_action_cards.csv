@@ -1,0 +1,4 @@
+action,title,owner,first_gate,core_kpi
+1,OLIVE customer x SKU recovery,Sales Head,Weeks 0-2: approve baseline and economics,Incremental GP and PBO
+2,Trade-spend and discount ROI reset,Sales Head,"Classify spend: keep, test, redesign or stop",Promotion ROI and Discount/GSV
+3,Selective reinvestment with guardrails,Finance Head,Release scale funding only after positive incremental GP,Incremental PBO and payback

@@ -1,0 +1,11 @@
+dimension,score,evidence
+Audience,2,Leadership and FBP audience stated
+Action,2,Action titles and decision implications
+Chart fit,2,"Scorecard, bars, heatmaps and additive waterfalls"
+Accuracy,2,Raw/P&L reconciliation and explicit period caveats
+Clutter,2,No gridlines; direct labels replace every value axis
+Attention,2,Grey for context; hue only where the headline argues
+Accessibility,2,"Signs, position, labels and hatches supplement colour"
+Story,2,Four-page logic from truth to action
+Medium fit,2,Annotations and sources support distributed slides
+Polish,2,"Arial, one left edge for all narrative text, stable 16:9 exports"
