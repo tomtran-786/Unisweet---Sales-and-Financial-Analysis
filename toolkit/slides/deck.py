@@ -82,7 +82,13 @@ STATEMENT_WRAP = 58
 STATEMENT_BODY_WRAP = 132
 STATEMENT_GAP = 0.055
 STATEMENT_BAND_TOP = 0.78
-STATEMENT_BAND_BOTTOM = 0.27
+
+# Label-and-body lists. MIN_ITEM_GAP is larger than LABEL_OFFSET on purpose:
+# the space between two items has to beat the space inside one, or a label reads
+# as belonging to the paragraph above it.
+LABEL_OFFSET = 0.038
+BODY_LINE_H = 0.035
+MIN_ITEM_GAP = 0.048
 
 # --- palette, inherited ------------------------------------------------------
 INK = swd.INK
@@ -134,6 +140,21 @@ def wrap_narration(text: str) -> list[str]:
             f"narration needs {len(lines)} lines, band fits {NARRATION_MAX_LINES}: {text[:70]}..."
         )
     return lines
+
+
+def narration_top(text: str) -> float:
+    """Figure fraction of the top of the narration block.
+
+    Body copy has to stop above this. It is derived from the type size and the
+    line count rather than being a constant, because the last constant here was
+    chosen for 9.5pt narration and silently started overlapping the appendix
+    body when the narration was set larger.
+    """
+    lines = wrap_narration(text)
+    if not lines:
+        return SOURCE_Y + 0.03
+    line_h = NARRATION_PT * 1.45 / 72 / H_IN
+    return NARRATION_Y + NARRATION_LINE_STEP * (len(lines) - 1) + len(lines) * line_h
 
 
 @dataclass
@@ -368,7 +389,9 @@ def _place_art(fig, image: Path) -> None:
 
 
 def _pdf_bullets(spec, fig) -> None:
-    top = 0.74 if spec.kind == "statement" else 0.76
+    # A slide with no takeaway leaves the takeaway band empty; start the body
+    # there rather than below a line that was never drawn.
+    top = 0.74 if spec.kind == "statement" else (0.76 if spec.takeaway else 0.845)
 
     if spec.kind == "statement":
         # A statement slide carries no artwork, so the block is measured and then
@@ -384,7 +407,8 @@ def _pdf_bullets(spec, fig) -> None:
         block = rows * line_h + STATEMENT_GAP + sum(
             0.030 if not w else 0.055 * (w.count("\n") + 1) + 0.020 for w in body
         )
-        top = STATEMENT_BAND_TOP - max((STATEMENT_BAND_TOP - STATEMENT_BAND_BOTTOM - block) / 2, 0.0)
+        band_bottom = narration_top(spec.narration) + 0.030
+        top = STATEMENT_BAND_TOP - max((STATEMENT_BAND_TOP - band_bottom - block) / 2, 0.0)
 
         fig.text(LEFT, top, headline, ha="left", va="top",
                  fontsize=STATEMENT_PT, color=INK, fontweight="bold", linespacing=1.30)
@@ -415,19 +439,39 @@ def _pdf_bullets(spec, fig) -> None:
         else textwrap.fill(item, BODY_WRAP)
         for item in spec.bullets
     ]
-    rows = sum((w[1] if isinstance(w, tuple) else w).count("\n") + 1 for w in wrapped)
-    step = (top - 0.20) / max(rows + len(wrapped) * 0.6, 1)
+
+    # Space between items must exceed space inside an item, or the eye groups a
+    # label with the body above it instead of the one below. So each item is
+    # measured, and what is left over becomes the gap between them - rather than
+    # one uniform step that shrinks the two distances together.
+    heights = []
+    for item in wrapped:
+        body = item[1] if isinstance(item, tuple) else item
+        rows = body.count("\n") + 1
+        heights.append((LABEL_OFFSET if isinstance(item, tuple) else 0.0) + rows * BODY_LINE_H)
+
+    # Stop above the narration, wherever it actually starts. This used to be a
+    # flat 0.20, which was right only while the narration was set at 9.5pt.
+    floor = narration_top(spec.narration) + 0.030
+    available = top - floor
+    gaps = max(len(wrapped) - 1, 1)
+    gap = (available - sum(heights)) / gaps
+    if gap < MIN_ITEM_GAP:
+        raise ValueError(
+            f"'{spec.title[:48]}' needs {sum(heights) + gaps * MIN_ITEM_GAP:.3f} of the page "
+            f"but only {available:.3f} is free between the header and the narration. "
+            f"Shorten the bullets or the narration."
+        )
 
     y = top
-    for item in wrapped:
+    for item, height in zip(wrapped, heights):
         if isinstance(item, tuple):
             label, body = item
             fig.text(LEFT, y, label, ha="left", va="top", fontsize=12,
                      color=ACCENT if spec.kind == "closing" else MID, fontweight="bold")
-            fig.text(LEFT, y - 0.038, body, ha="left", va="top", fontsize=14,
+            fig.text(LEFT, y - LABEL_OFFSET, body, ha="left", va="top", fontsize=14,
                      color=INK, linespacing=1.35)
-            y -= step * (body.count("\n") + 1.6)
         else:
             fig.text(LEFT, y, item, ha="left", va="top", fontsize=15,
                      color=INK, linespacing=1.40)
-            y -= step * (item.count("\n") + 1.6)
+        y -= height + gap

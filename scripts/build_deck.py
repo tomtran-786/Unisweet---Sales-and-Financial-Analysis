@@ -76,23 +76,17 @@ SLIDES: list[Slide] = [
         eyebrow="The route",
         title="The argument runs in six steps, and the answer comes first",
         bullets=[
-            ("1  ·  HOW BAD IS IT?", "Turnover, GSV and discount intensity — the three "
-                                     "topline KPIs, FY2024 against FY2023."),
-            ("2  ·  DID THE MARKET DO THIS TO US?", "Category and segment growth, to separate "
-                                                    "what happened to everyone from what happened to us."),
-            ("3  ·  WHERE EXACTLY DID IT BREAK?", "Down to the channel, then to one brand in "
-                                                  "that channel, month by month."),
-            ("4  ·  WHY DID PBO STILL RISE?", "Marketing and supply chain cost by brand, "
-                                              "against the Gross Profit they were meant to earn."),
-            ("5  ·  WHAT IS LEFT TO GROW?", "COBALT and SKY measured against their own markets, "
-                                            "not against each other."),
-            ("6  ·  WHAT WE ARE ASKING FOR", "Three gated actions, each with a named owner and "
-                                             "a decision due in week 0."),
+            "1.  How bad is it?  —  the three topline KPIs",
+            "2.  Did the market do this to us?  —  category and segment growth",
+            "3.  Where exactly did it break?  —  the channel, then one brand inside it",
+            "4.  Why did PBO still rise?  —  marketing and supply chain cost by brand",
+            "5.  What is left to grow?  —  COBALT and SKY against their own markets",
+            "6.  What we are asking for  —  three gated actions, owners named",
         ],
         takeaway="Six questions, six exhibits. Read the titles alone and you have the argument.",
-        narration="Steps 1 and 2 establish how serious this is and whose problem it is. Steps 3 "
-                  "and 4 locate the damage and explain the profit result. Steps 5 and 6 are what "
-                  "we do about it.",
+        narration="Questions 1 and 2 establish how serious this is and whose problem it is. "
+                  "Questions 3 and 4 locate the damage and explain the profit result. "
+                  "Questions 5 and 6 are what we do about it.",
         source=f"{SALES}, {PNL} and {MARKET}",
     ),
 
@@ -178,21 +172,20 @@ SLIDES: list[Slide] = [
         eyebrow="Appendix  |  How to read this pack",
         title="Sources, definitions and what this analysis does not claim",
         bullets=[
-            ("INTERNAL SALES", f"{SALES} — merged from the raw Sales and mapping workbooks; "
-                               "FY2024 versus FY2023, all rows retained so GSV, Discount and TO tie to P&L"),
-            ("P&L", f"inputs/pnl/{PNL}, sheet 'PnL table'. Marketing and supply chain cost are "
-                    "stated assumptions in that workbook, not measured spend"),
-            ("MARKET", f"inputs/market/{MARKET}, sheet 'Market Data'. MAT Nov'24 versus MAT-1 "
-                       "sell-out — a different clock from the internal FY sell-in figures"),
-            ("TWO LIMITS WORTH STATING", "Segment rows sum the named brands only (82.9% of "
-                                         "Category at Total, 90.9% at MT). Category growth is identical at Total, DT and MT "
-                                         "because the source scales it proportionally."),
-            ("NOT CLAIMED", "Discount movement is not promotion causality. Lower absolute cost "
-                            "is not efficiency. SKY's internal/market divergence is a question, not a conclusion."),
+            ("INTERNAL SALES", f"{SALES} — every row retained, so GSV, Discount and TO tie "
+                               "exactly to the P&L"),
+            ("P&L", f"inputs/pnl/{PNL}. Marketing and supply chain cost are stated assumptions, "
+                    "not measured spend"),
+            ("MARKET", f"inputs/market/{MARKET} — MAT sell-out, a different clock from internal "
+                       "FY sell-in"),
+            ("TWO LIMITS WORTH STATING", "Segment rows sum named brands only (82.9% at Total, "
+                                         "90.9% in MT); category growth is identical in every channel"),
+            ("NOT CLAIMED", "Discount movement is not causality. Lower cost is not efficiency. "
+                            "SKY's divergence is a question."),
         ],
-        narration="These are the qualifications I would give verbally. They are written down "
-                  "because this pack will be read by people I cannot qualify it for in person. "
-                  "Every chart has a matching CSV in outputs/report_visuals/data/.",
+        narration="These are the qualifications I would give verbally, written down because this "
+                  "pack will be read without me. Every chart has a matching CSV in "
+                  "outputs/report_visuals/data/.",
         source="STORYLINE_METRIC_FRAMEWORK.md and visualisations.ipynb",
     ),
 ]
