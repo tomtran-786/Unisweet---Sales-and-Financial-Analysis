@@ -1,7 +1,7 @@
 """Build the UniSweet FY2024 review deck.
 
 One spec, two renderings - a sparse .pptx for the room and an annotated .pdf for
-everyone who was not in it. See .claude/skills/slide-design/SKILL.md for why.
+everyone who was not in it. See toolkit/slides/SKILL.md for why.
 
 Action titles are read from outputs/report_visuals/visual_manifest.csv rather
 than retyped, so the deck and the charts cannot drift apart.
@@ -17,9 +17,9 @@ from pathlib import Path
 import pandas as pd
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-SKILL_DIR = PROJECT_ROOT / ".claude" / "skills" / "slide-design"
-if str(SKILL_DIR) not in sys.path:
-    sys.path.insert(0, str(SKILL_DIR))
+RENDERER_DIR = PROJECT_ROOT / "toolkit" / "slides"
+if str(RENDERER_DIR) not in sys.path:
+    sys.path.insert(0, str(RENDERER_DIR))
 
 from deck import Slide, build_pdf, build_pptx  # noqa: E402
 

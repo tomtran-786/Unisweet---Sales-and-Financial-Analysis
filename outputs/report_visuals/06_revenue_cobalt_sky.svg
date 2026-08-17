@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-08-17T14:31:00.604810</dc:date>
+    <dc:date>2026-08-17T15:03:56.209828</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -21,19 +21,19 @@
  </defs>
  <g id="figure_1">
   <g id="patch_1">
-   <path d="M 0 540 
-L 960 540 
-L 960 0 
-L 0 0 
+   <path d="M 0 540
+L 960 540
+L 960 0
+L 0 0
 z
 " style="fill: #ffffff"/>
   </g>
   <g id="axes_1">
    <g id="patch_2">
-    <path d="M 96 410.4 
-L 633.6 410.4 
-L 633.6 140.4 
-L 96 140.4 
+    <path d="M 96 410.4
+L 633.6 410.4
+L 633.6 140.4
+L 96 140.4
 z
 " style="fill: #ffffff"/>
    </g>
@@ -53,36 +53,36 @@ z
     </g>
    </g>
    <g id="patch_3">
-    <path d="M 96 215.775 
-L 167.19762 215.775 
-L 167.19762 182.025 
-L 96 182.025 
+    <path d="M 96 215.775
+L 167.19762 215.775
+L 167.19762 182.025
+L 96 182.025
 z
-" clip-path="url(#p223b60b196)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p624d601065)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
-    <path d="M 96 256.275 
-L 175.475563 256.275 
-L 175.475563 222.525 
-L 96 222.525 
+    <path d="M 96 256.275
+L 175.475563 256.275
+L 175.475563 222.525
+L 96 222.525
 z
-" clip-path="url(#p223b60b196)" style="fill: url(#h9f9ea1948d); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p624d601065)" style="fill: url(#h4b6d350cef); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_5">
-    <path d="M 96 328.275 
-L 542.78453 328.275 
-L 542.78453 294.525 
-L 96 294.525 
+    <path d="M 96 328.275
+L 542.78453 328.275
+L 542.78453 294.525
+L 96 294.525
 z
-" clip-path="url(#p223b60b196)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p624d601065)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="patch_6">
-    <path d="M 96 368.775 
-L 509.538462 368.775 
-L 509.538462 335.025 
-L 96 335.025 
+    <path d="M 96 368.775
+L 509.538462 368.775
+L 509.538462 335.025
+L 96 335.025
 z
-" clip-path="url(#p223b60b196)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+" clip-path="url(#p624d601065)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
    </g>
    <g id="text_3">
     <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="172.160082" y="201.485156" transform="rotate(-0 172.160082 201.485156)">8.38</text>
@@ -122,51 +122,51 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p223b60b196">
+  <clipPath id="p624d601065">
    <rect x="96" y="140.4" width="537.6" height="270"/>
   </clipPath>
  </defs>
  <defs>
-  <pattern id="h9f9ea1948d" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+  <pattern id="h4b6d350cef" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
    <rect x="0" y="0" width="73" height="73" fill="#5886a5"/>
-   <path d="M -36 36 
-L 36 -36 
-M -32 40 
-L 40 -32 
-M -28 44 
-L 44 -28 
-M -24 48 
-L 48 -24 
-M -20 52 
-L 52 -20 
-M -16 56 
-L 56 -16 
-M -12 60 
-L 60 -12 
-M -8 64 
-L 64 -8 
-M -4 68 
-L 68 -4 
-M 0 72 
-L 72 0 
-M 4 76 
-L 76 4 
-M 8 80 
-L 80 8 
-M 12 84 
-L 84 12 
-M 16 88 
-L 88 16 
-M 20 92 
-L 92 20 
-M 24 96 
-L 96 24 
-M 28 100 
-L 100 28 
-M 32 104 
-L 104 32 
-M 36 108 
-L 108 36 
+   <path d="M -36 36
+L 36 -36
+M -32 40
+L 40 -32
+M -28 44
+L 44 -28
+M -24 48
+L 48 -24
+M -20 52
+L 52 -20
+M -16 56
+L 56 -16
+M -12 60
+L 60 -12
+M -8 64
+L 64 -8
+M -4 68
+L 68 -4
+M 0 72
+L 72 0
+M 4 76
+L 76 4
+M 8 80
+L 80 8
+M 12 84
+L 84 12
+M 16 88
+L 88 16
+M 20 92
+L 92 20
+M 24 96
+L 96 24
+M 28 100
+L 100 28
+M 32 104
+L 104 32
+M 36 108
+L 108 36
 " style="fill: #004c6d; stroke: #004c6d; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
   </pattern>
  </defs>

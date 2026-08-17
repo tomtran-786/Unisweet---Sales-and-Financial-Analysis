@@ -15,5 +15,8 @@ __pycache__/
 # Third-party checkout with its own git history
 fastpdf4llm/
 
-# Converted book text and extracted figures - reference only, never committed
+# Converted book text and extracted figures - reference only, never committed.
+# toolkit/*/reference/ keeps only the original distillations written for this project.
 references/domain/storytelling-with-data-*
+**/reference/storytelling-with-data-p*
+**/reference/from-blah-to-boardroom*

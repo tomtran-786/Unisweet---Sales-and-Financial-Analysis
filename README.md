@@ -159,14 +159,12 @@ python -m jupyter nbconvert --to notebook --execute --inplace visualisations.ipy
 python scripts/build_deck.py
 ```
 
-> The deck builder depends on a slide renderer that lives in the local, uncommitted tooling
-> directory (`.claude/skills/slide-design/deck.py`), so this last step does not run from a
-> fresh clone. The built PPTX and PDF are committed as artifacts; everything up to and
-> including the six charts reproduces from the repository alone.
-
 ```bash
 pytest -p no:cacheprovider
 ```
+
+Every step above runs from a fresh clone. The chart and slide libraries the notebook and the
+deck builder import live in [`toolkit/`](toolkit/), with nothing outside `requirements.txt`.
 
 Reading the master back:
 
@@ -227,10 +225,16 @@ but the two sources do not agree.
 Every visual decision in this repository comes from Cole Nussbaumer Knaflic's
 **Storytelling with Data: A Data Visualization Guide for Business Professionals**
 (Wiley, 2015). The point of this section is that the principles are not applied by taste —
-they are written down as code that runs. A local tooling directory (`.claude/skills/`, not
-committed) holds `swd.py`, which builds the chart forms the book recommends, and `lint.py`,
-which fails a figure that breaks its rules. Every chart in the deck is linted at export and
-the result is recorded in `visual_manifest.csv`. All six read `clean`.
+they are written down as code that runs, in [`toolkit/charts/`](toolkit/charts/): `swd.py`
+builds the chart forms the book recommends, and `lint.py` fails a figure that breaks its
+rules. Every chart in the deck is linted at export and the result is recorded in
+`visual_manifest.csv`. All six read `clean`.
+
+The path from book to library is described in [`toolkit/README.md`](toolkit/README.md):
+the books were converted from PDF to Markdown, the parts that are *decisions* were distilled
+into short notes in original words with attribution, and the parts that are *mechanical*
+became functions and lint checks. The converted book text and extracted figures themselves
+stay local and are gitignored — only the distillations and the code are published here.
 
 ### Choosing the story before choosing the chart
 
