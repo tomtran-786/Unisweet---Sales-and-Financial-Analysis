@@ -120,3 +120,91 @@ def test_flagged_rows_are_retained_and_visible() -> None:
     quality = DATA["quality"].set_index("metric")
     assert quality.loc["Flagged TO > GSV TO FY2023", "value"] == pytest.approx(2_574.5)
     assert quality.loc["Flagged TO > GSV TO FY2024", "value"] == pytest.approx(3_173.0)
+
+
+def test_market_segment_rows_sum_their_named_brands() -> None:
+    """Segment rows are brand sums; Category is the file's own total, not their sum."""
+    segments = DATA["market_segment"].set_index(["channel", "segment"])
+    market = metrics._load_market()
+
+    for channel in ["Total", "MT"]:
+        block = market.loc[market["channel"].eq(channel)]
+        brands = block.loc[block["manufacturer"].ne("Category") & block["brand"].notna()]
+        for segment in metrics.MARKET_SEGMENTS:
+            part = brands.loc[brands["segment"].eq(segment)]
+            assert segments.loc[(channel, segment), "mat1_meur"] == pytest.approx(
+                part["sales_value_mat_1_meur"].sum()
+            )
+            assert segments.loc[(channel, segment), "mat_meur"] == pytest.approx(
+                part["sales_value_mat_meur"].sum()
+            )
+
+        # The named brands do not add up to Category, and the frame records by how much
+        # rather than reconciling the difference away.
+        category = segments.loc[(channel, "Category"), "mat1_meur"]
+        named = sum(segments.loc[(channel, s), "mat1_meur"] for s in metrics.MARKET_SEGMENTS)
+        assert named < category
+        assert segments.loc[(channel, "Category"), "segment_coverage_pct"] == pytest.approx(
+            named / category * 100
+        )
+
+    assert segments.loc[("Total", "Category"), "segment_coverage_pct"] == pytest.approx(82.85, abs=0.01)
+    assert segments.loc[("MT", "Category"), "segment_coverage_pct"] == pytest.approx(90.92, abs=0.01)
+
+
+def test_market_segment_growth_and_share_movements() -> None:
+    segments = DATA["market_segment"].set_index(["channel", "segment"])
+
+    # The source scales Category proportionally, so its growth is the same everywhere.
+    assert segments.loc[("Total", "Category"), "growth_pct"] == pytest.approx(-0.013072, abs=1e-6)
+    assert segments.loc[("MT", "Category"), "growth_pct"] == pytest.approx(-0.013072, abs=1e-6)
+
+    assert segments.loc[("Total", "Mainstream"), "growth_pct"] == pytest.approx(-0.070851, abs=1e-6)
+    assert segments.loc[("Total", "Economy"), "growth_pct"] == pytest.approx(0.177366, abs=1e-6)
+    assert segments.loc[("MT", "Mainstream"), "growth_pct"] == pytest.approx(-0.138326, abs=1e-6)
+    assert segments.loc[("MT", "Economy"), "growth_pct"] == pytest.approx(0.414164, abs=1e-6)
+
+    # Category rows carry UniSweet's total share movement for the channel.
+    assert segments.loc[("Total", "Category"), "unisweet_share_movement_pp"] == pytest.approx(-1.96995)
+    assert segments.loc[("MT", "Category"), "unisweet_share_movement_pp"] == pytest.approx(-6.07085)
+
+
+def test_olive_mt_monthly_ties_to_the_sales_master() -> None:
+    monthly = DATA["olive_mt_monthly"]
+    assert list(monthly["month_number"]) == list(range(1, 13))
+
+    sales = metrics._load_sales()
+    olive_mt = sales.loc[sales["brand_name"].eq("OLIVE") & sales["channel_code"].eq("MT")]
+    for year in [metrics.PRIOR_YEAR, metrics.CURRENT_YEAR]:
+        expected = olive_mt.loc[olive_mt["reporting_year"].eq(year), "gsv_keur"].sum()
+        assert monthly[f"gsv_keur_{year}"].sum() == pytest.approx(expected)
+
+    assert monthly["gsv_keur_2023"].sum() == pytest.approx(60_994.1)
+    assert monthly["gsv_keur_2024"].sum() == pytest.approx(52_264.2)
+    assert monthly["gsv_change_keur"].sum() == pytest.approx(-8_729.9)
+
+    halves = monthly.groupby("half")["gsv_change_keur"].sum()
+    assert halves["H1"] == pytest.approx(-2_988.0)
+    assert halves["H2"] == pytest.approx(-5_741.9)
+
+    # November is the only month above prior year, which the chart says out loud.
+    assert list(monthly.loc[monthly["gsv_change_keur"] > 0, "month_number"]) == [11]
+
+
+def test_headline_carries_discount_on_turnover() -> None:
+    """The scorecard quotes Discount on Turnover, the P&L convention, not on GSV."""
+    headline = DATA["headline"].set_index("metric")
+    total = DATA["pnl"].set_index("brand").loc["TOTAL"]
+
+    assert headline.loc["Discount / TO", "value_2023"] == pytest.approx(
+        total["discount_2023_keur"] / total["turnover_2023_keur"]
+    )
+    assert headline.loc["Discount / TO", "value_2024"] == pytest.approx(
+        total["discount_2024_keur"] / total["turnover_2024_keur"]
+    )
+    assert headline.loc["Discount / TO", "value_2023"] == pytest.approx(0.280837, abs=1e-6)
+    assert headline.loc["Discount / TO", "value_2024"] == pytest.approx(0.291098, abs=1e-6)
+    assert headline.loc["Discount / TO", "absolute_change"] * 10_000 == pytest.approx(102.6, abs=0.1)
+
+    # Read on GSV the same movement is smaller, which is why the base is stated.
+    assert headline.loc["Discount / GSV", "absolute_change"] * 10_000 == pytest.approx(62.05, abs=0.1)

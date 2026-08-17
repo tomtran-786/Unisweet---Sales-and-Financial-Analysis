@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T14:31:00.009141</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 55.776604 375.624 
+L 317.959245 375.624 
+Q 326.291321 375.624 326.291321 366.714 
+L 326.291321 98.226 
+Q 326.291321 89.316 317.959245 89.316 
+L 55.776604 89.316 
+Q 47.444528 89.316 47.444528 98.226 
+L 47.444528 366.714 
+Q 47.444528 375.624 55.776604 375.624 
+z
+" clip-path="url(#p3ee002445c)" style="fill: #ffdbc1; stroke: #f79545; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="fill: #595959; font: 700 11px 'Arial'; text-anchor: start" x="67.441509" y="131.49" transform="rotate(-0 67.441509 131.49)">TURNOVER</text>
+   </g>
+   <g id="text_2">
+    <text style="fill: #262626; font: 700 40px 'Arial'; text-anchor: start" x="67.441509" y="238.41" transform="rotate(-0 67.441509 238.41)">€270.5m</text>
+   </g>
+   <g id="text_3">
+    <text style="fill: #262626; font: 700 17px 'Arial'; text-anchor: start" x="67.441509" y="318.6" transform="rotate(-0 67.441509 318.6)">-19.6m</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #595959; font: 12px 'Arial'; text-anchor: start" x="67.441509" y="351.27" transform="rotate(-0 67.441509 351.27)">-6.7% YoY</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_3">
+    <path d="M 358.508679 375.624 
+L 620.691321 375.624 
+Q 629.023396 375.624 629.023396 366.714 
+L 629.023396 98.226 
+Q 629.023396 89.316 620.691321 89.316 
+L 358.508679 89.316 
+Q 350.176604 89.316 350.176604 98.226 
+L 350.176604 366.714 
+Q 350.176604 375.624 358.508679 375.624 
+z
+" clip-path="url(#p98482ed70e)" style="fill: #ffdbc1; stroke: #f79545; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 700 11px 'Arial'; text-anchor: start" x="370.173585" y="131.49" transform="rotate(-0 370.173585 131.49)">GROSS SALES VALUE</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 40px 'Arial'; text-anchor: start" x="370.173585" y="238.41" transform="rotate(-0 370.173585 238.41)">€349.2m</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #262626; font: 700 17px 'Arial'; text-anchor: start" x="370.173585" y="318.6" transform="rotate(-0 370.173585 318.6)">-22.3m</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #595959; font: 12px 'Arial'; text-anchor: start" x="370.173585" y="351.27" transform="rotate(-0 370.173585 351.27)">-6.0% YoY</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_4">
+    <path d="M 661.240755 375.624 
+L 923.423396 375.624 
+Q 931.755472 375.624 931.755472 366.714 
+L 931.755472 98.226 
+Q 931.755472 89.316 923.423396 89.316 
+L 661.240755 89.316 
+Q 652.908679 89.316 652.908679 98.226 
+L 652.908679 366.714 
+Q 652.908679 375.624 661.240755 375.624 
+z
+" clip-path="url(#p7c1e3513a3)" style="fill: #ffdbc1; stroke: #f79545; stroke-width: 1.5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_9">
+    <text style="fill: #595959; font: 700 11px 'Arial'; text-anchor: start" x="672.90566" y="131.49" transform="rotate(-0 672.90566 131.49)">DISCOUNT % OF TURNOVER</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #262626; font: 700 40px 'Arial'; text-anchor: start" x="672.90566" y="238.41" transform="rotate(-0 672.90566 238.41)">29.11%</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #262626; font: 700 17px 'Arial'; text-anchor: start" x="672.90566" y="318.6" transform="rotate(-0 672.90566 318.6)">+103bps</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #595959; font: 12px 'Arial'; text-anchor: start" x="672.90566" y="351.27" transform="rotate(-0 672.90566 351.27)">from 28.08%</text>
+   </g>
+  </g>
+  <g id="text_13">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.43125" transform="rotate(-0 52.8 35.43125)">Every topline KPI moved against us in FY2024</text>
+  </g>
+  <g id="text_14">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.271641" transform="rotate(-0 52.8 54.271641)">FY2024 versus FY2023, P&amp;L-aligned reporting base</text>
+  </g>
+  <g id="text_15">
+   <text style="fill: #004c6d; font: 700 14.5px 'Arial'; text-anchor: start" x="52.8" y="442.555547" transform="rotate(-0 52.8 442.555547)">Turnover fell faster than GSV because discount intensity rose at the same time - the base shrank and we kept less of what was left.</text>
+  </g>
+  <g id="text_16">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: P&amp;L Table.xlsx and outputs/sales_master.csv  |  Discount is stated on Turnover, the P&amp;L convention; on GSV the same movement reads 21.93% to 22.55% (+62bps)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3ee002445c">
+   <rect x="48" y="81" width="277.735849" height="297"/>
+  </clipPath>
+  <clipPath id="p98482ed70e">
+   <rect x="350.732075" y="81" width="277.735849" height="297"/>
+  </clipPath>
+  <clipPath id="p7c1e3513a3">
+   <rect x="653.464151" y="81" width="277.735849" height="297"/>
+  </clipPath>
+ </defs>
+</svg>

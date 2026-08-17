@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T14:31:00.234109</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 139.2 480.6 
+L 864 480.6 
+L 864 108 
+L 139.2 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #595959; font: 13px 'Arial'; text-anchor: end" x="135.7" y="163.22432" transform="rotate(-0 135.7 163.22432)">Category</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 700 13px 'Arial'; text-anchor: end" x="135.7" y="250.201176" transform="rotate(-0 135.7 250.201176)">Mainstream</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #595959; font: 13px 'Arial'; text-anchor: end" x="135.7" y="337.257251" transform="rotate(-0 135.7 337.257251)">Economy</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #595959; font: 13px 'Arial'; text-anchor: end" x="135.7" y="424.313326" transform="rotate(-0 135.7 424.313326)">Premium</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 139.2 156.751402 
+L 789.111504 156.751402 
+L 789.111504 127.152336 
+L 139.2 127.152336 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 139.2 189.83271 
+L 780.615929 189.83271 
+L 780.615929 160.233645 
+L 139.2 160.233645 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 139.2 243.807477 
+L 558.79684 243.807477 
+L 558.79684 214.208411 
+L 139.2 214.208411 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 139.2 276.888785 
+L 500.755897 276.888785 
+L 500.755897 247.28972 
+L 139.2 247.28972 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 139.2 330.863551 
+L 229.334358 330.863551 
+L 229.334358 301.264486 
+L 139.2 301.264486 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 139.2 363.94486 
+L 266.664755 363.94486 
+L 266.664755 334.345794 
+L 139.2 334.345794 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 139.2 417.919626 
+L 220.345026 417.919626 
+L 220.345026 388.320561 
+L 139.2 388.320561 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 139.2 451.000935 
+L 225.340235 451.000935 
+L 225.340235 421.401869 
+L 139.2 421.401869 
+z
+" clip-path="url(#p6472cc67f0)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 139.2 202.020561 
+L 864 202.020561 
+" clip-path="url(#p6472cc67f0)" style="fill: none; stroke: #d9d9d9; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="796.808496" y="144.537025" transform="rotate(-0 796.808496 144.537025)">91.8</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="788.31292" y="177.618334" transform="rotate(-0 788.31292 177.618334)">90.6</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #595959; font: 12.5px 'Arial'; text-anchor: start" x="867.624" y="161.723969" transform="rotate(-0 867.624 161.723969)">-1.3%</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="566.493832" y="231.5931" transform="rotate(-0 566.493832 231.5931)">59.3</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="508.452888" y="264.811049" transform="rotate(-0 508.452888 264.811049)">51.1</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #262626; font: 700 15px 'Arial'; text-anchor: start" x="867.624" y="249.436879" transform="rotate(-0 867.624 249.436879)">-13.8%</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="237.031349" y="318.649175" transform="rotate(-0 237.031349 318.649175)">12.7</text>
+   </g>
+   <g id="text_12">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="274.361746" y="351.730483" transform="rotate(-0 274.361746 351.730483)">18.0</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #595959; font: 12.5px 'Arial'; text-anchor: start" x="867.624" y="335.836118" transform="rotate(-0 867.624 335.836118)">+41.4%</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="228.042017" y="405.70525" transform="rotate(-0 228.042017 405.70525)">11.5</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="233.037226" y="438.786558" transform="rotate(-0 233.037226 438.786558)">12.2</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #595959; font: 12.5px 'Arial'; text-anchor: start" x="867.624" y="422.892193" transform="rotate(-0 867.624 422.892193)">+6.2%</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #595959; font: 700 10px 'Arial'; text-anchor: start" x="867.624" y="126.196656" transform="rotate(-0 867.624 126.196656)">MAT growth</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="139.2" y="126.25525" transform="rotate(-0 139.2 126.25525)">Paler bar: MAT-1    Solid bar: MAT</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #004c6d; font: 700 13px 'Arial'" transform="translate(356.64 355.927594)">MT Mainstream fell 13.8% while MT Economy grew 41.4%.</text>
+    <text style="fill: #004c6d; font: 700 13px 'Arial'" transform="translate(356.64 370.02)">UniSweet share in MT: -6.07 points; LILAC: +5.53.</text>
+   </g>
+  </g>
+  <g id="text_20">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.362969" transform="rotate(-0 52.8 35.362969)">In Modern Trade the same category decline cost us six share points</text>
+  </g>
+  <g id="text_21">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.271641" transform="rotate(-0 52.8 54.271641)">Market sales value, EURm  |  MAT Nov'24 versus MAT-1  |  Modern Trade only</text>
+  </g>
+  <g id="text_22">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: Market Report MAT Nov'24.xlsx  |  Category growth is identical (-1.3%) at Total, DT and MT - the source scales it proportionally, so this row repeats page 2 by construction</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p6472cc67f0">
+   <rect x="139.2" y="108" width="724.8" height="372.6"/>
+  </clipPath>
+ </defs>
+</svg>

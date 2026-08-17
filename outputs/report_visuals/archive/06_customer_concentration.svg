@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T10:27:27.624878</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 211.2 459 
+L 912 459 
+L 912 108 
+L 211.2 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #bfbfbf; font: 11px 'Arial'; text-anchor: end" x="207.7" y="420.024236" transform="rotate(-0 207.7 420.024236)">All other customers (net)  |  Mixed</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="207.7" y="348.391583" transform="rotate(-0 207.7 348.391583)">Macarons  |  MT</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="207.7" y="276.75893" transform="rotate(-0 207.7 276.75893)">Candies  |  DT</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: end" x="207.7" y="205.126277" transform="rotate(-0 207.7 205.126277)">Bliss  |  MT</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 912 436.793878 
+L 733.079553 436.793878 
+L 733.079553 395.246939 
+L 912 395.246939 
+z
+" clip-path="url(#pd7f5016b12)" style="fill: #8c8c8c"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 912 365.161224 
+L 490.583411 365.161224 
+L 490.583411 323.614286 
+L 912 323.614286 
+z
+" clip-path="url(#pd7f5016b12)" style="fill: #f79545"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 912 293.528571 
+L 285.027809 293.528571 
+L 285.027809 251.981633 
+L 912 251.981633 
+z
+" clip-path="url(#pd7f5016b12)" style="fill: #f79545"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 912 221.895918 
+L 244.571429 221.895918 
+L 244.571429 180.34898 
+L 912 180.34898 
+z
+" clip-path="url(#pd7f5016b12)" style="fill: #f79545"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 912 459 
+L 912 108 
+" clip-path="url(#pd7f5016b12)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 11px 'Arial'; text-anchor: end" x="718.551286" y="418.86408" transform="rotate(-0 718.551286 418.86408)">-1.85m</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 11px 'Arial'; text-anchor: start" x="505.111678" y="347.239161" transform="rotate(-0 505.111678 347.239161)">-4.35m</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #262626; font: 700 11px 'Arial'; text-anchor: start" x="299.556075" y="275.606508" transform="rotate(-0 299.556075 275.606508)">-6.47m</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #262626; font: 700 11px 'Arial'; text-anchor: start" x="259.099695" y="203.973855" transform="rotate(-0 259.099695 203.973855)">-6.89m</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(218.208 120.099375)">Active customers: 19 → 18</text>
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(218.208 132.95025)">Only Treats exited (~€0.5k TO)</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.643281" transform="rotate(-0 52.8 35.643281)">Bliss, Candies and Macarons explain 91% of the turnover decline</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">TO change, EURm | FY2024 versus FY2023 | Existing-account spend, not broad customer attrition</text>
+  </g>
+  <g id="text_12">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Customer counts reflect observed UniSweet accounts, not market distribution</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd7f5016b12">
+   <rect x="211.2" y="108" width="700.8" height="351"/>
+  </clipPath>
+ </defs>
+</svg>

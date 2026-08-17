@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T14:31:00.490337</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 72 378 
+L 445.565217 378 
+L 445.565217 129.6 
+L 72 129.6 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="68.5" y="187.123259" transform="rotate(-0 68.5 187.123259)">OLIVE</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #595959; font: 12px 'Arial'; text-anchor: end" x="68.5" y="258.094688" transform="rotate(-0 68.5 258.094688)">COBALT</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="68.5" y="329.066116" transform="rotate(-0 68.5 329.066116)">SKY</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 72 181.409143 
+L 350.780013 181.409143 
+L 350.780013 157.278857 
+L 72 157.278857 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 72 208.378286 
+L 267.146009 208.378286 
+L 267.146009 184.248 
+L 72 184.248 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 72 252.380571 
+L 83.151201 252.380571 
+L 83.151201 228.250286 
+L 72 228.250286 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 72 279.349714 
+L 85.939001 279.349714 
+L 85.939001 255.219429 
+L 72 255.219429 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 72 323.352 
+L 105.453602 323.352 
+L 105.453602 299.221714 
+L 72 299.221714 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 72 350.321143 
+L 99.878001 350.321143 
+L 99.878001 326.190857 
+L 72 326.190857 
+z
+" clip-path="url(#p35338e6fa0)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_4">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="354.961713" y="171.799898" transform="rotate(-0 354.961713 171.799898)">50.0</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="271.327709" y="199.030018" transform="rotate(-0 271.327709 199.030018)">35.0   (-30%)</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="87.332901" y="242.771327" transform="rotate(-0 87.332901 242.771327)">2.0</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="90.120701" y="269.872071" transform="rotate(-0 90.120701 269.872071)">2.5   (+25%)</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="109.635302" y="313.742756" transform="rotate(-0 109.635302 313.742756)">6.0</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="104.059701" y="340.972875" transform="rotate(-0 104.059701 340.972875)">5.0   (-17%)</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #004c6d; font: 700 14px 'Arial'; text-anchor: start" x="72" y="115.6" transform="rotate(-0 72 115.6)">Marketing expense</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_9">
+    <path d="M 557.634783 378 
+L 931.2 378 
+L 931.2 129.6 
+L 557.634783 129.6 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_11">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="554.134783" y="187.123259" transform="rotate(-0 554.134783 187.123259)">OLIVE</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_12">
+      <text style="fill: #595959; font: 12px 'Arial'; text-anchor: end" x="554.134783" y="258.094688" transform="rotate(-0 554.134783 258.094688)">COBALT</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_6"/>
+     <g id="text_13">
+      <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: end" x="554.134783" y="329.066116" transform="rotate(-0 554.134783 329.066116)">SKY</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_10">
+    <path d="M 557.634783 181.409143 
+L 836.414796 181.409143 
+L 836.414796 157.278857 
+L 557.634783 157.278857 
+z
+" clip-path="url(#p62185363f5)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 557.634783 208.378286 
+L 821.463462 208.378286 
+L 821.463462 184.248 
+L 557.634783 184.248 
+z
+" clip-path="url(#p62185363f5)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 557.634783 252.380571 
+L 567.202445 252.380571 
+L 567.202445 228.250286 
+L 557.634783 228.250286 
+z
+" clip-path="url(#p62185363f5)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 557.634783 279.349714 
+L 568.082675 279.349714 
+L 568.082675 255.219429 
+L 557.634783 255.219429 
+z
+" clip-path="url(#p62185363f5)" style="fill: #8c8c8c; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 557.634783 323.352 
+L 645.083909 323.352 
+L 645.083909 299.221714 
+L 557.634783 299.221714 
+z
+" clip-path="url(#p62185363f5)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 557.634783 350.321143 
+L 636.160481 350.321143 
+L 636.160481 326.190857 
+L 557.634783 326.190857 
+z
+" clip-path="url(#p62185363f5)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="840.596496" y="171.799898" transform="rotate(-0 840.596496 171.799898)">112.3</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="825.645162" y="199.030018" transform="rotate(-0 825.645162 199.030018)">106.3   (-5%)</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="571.384145" y="242.771327" transform="rotate(-0 571.384145 242.771327)">3.9</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="572.264375" y="269.872071" transform="rotate(-0 572.264375 269.872071)">4.2   (+9%)</text>
+   </g>
+   <g id="text_18">
+    <text style="fill: #595959; font: 9.5px 'Arial'; text-anchor: start" x="649.265609" y="313.742756" transform="rotate(-0 649.265609 313.742756)">35.2</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="640.342181" y="340.972875" transform="rotate(-0 640.342181 340.972875)">31.6   (-10%)</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #004c6d; font: 700 14px 'Arial'; text-anchor: start" x="557.634783" y="115.6" transform="rotate(-0 557.634783 115.6)">Total supply chain cost</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.643281" transform="rotate(-0 52.8 35.643281)">Profit held because we spent less, not because we sold more</text>
+  </g>
+  <g id="text_22">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.271641" transform="rotate(-0 52.8 54.271641)">Marketing expense and total supply chain cost, EURm  |  FY2024 versus FY2023  |  Paler bar: FY2023  |  The two panels are on different scales</text>
+  </g>
+  <g id="text_23">
+   <text style="fill: #004c6d; font: 700 15px 'Arial'" transform="translate(72 434.819531)">€15.5m less marketing and €9.3m less supply chain cost more than covered</text>
+   <text style="fill: #004c6d; font: 700 15px 'Arial'" transform="translate(72 453.544805)">the €10.3m of Gross Profit lost - PBO rose 6.4% on cost alone.</text>
+  </g>
+  <g id="text_24">
+   <text style="fill: #595959; font: 12px 'Arial'; text-anchor: start" x="72" y="497.435625" transform="rotate(-0 72 497.435625)">That lever cannot be pulled twice: supply chain cost per euro of Turnover worsened 35bps, so the saving is a smaller base, not efficiency.</text>
+  </g>
+  <g id="text_25">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: P&amp;L Table.xlsx  |  Marketing and supply chain cost are P&amp;L assumptions stated in the source workbook, not measured spend</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p35338e6fa0">
+   <rect x="72" y="129.6" width="373.565217" height="248.4"/>
+  </clipPath>
+  <clipPath id="p62185363f5">
+   <rect x="557.634783" y="129.6" width="373.565217" height="248.4"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -14,3 +14,6 @@ __pycache__/
 
 # Third-party checkout with its own git history
 fastpdf4llm/
+
+# Converted book text and extracted figures - reference only, never committed
+references/domain/storytelling-with-data-*

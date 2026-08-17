@@ -1,0 +1,4 @@
+action,title,owner,first_gate,core_kpi,visual_id,evidence,gate,scale_rule
+3,Action 3: release reinvestment after incremental GP turns positive,Finance Head,Release scale funding only after positive incremental GP,Incremental PBO and payback,11c_action_reinvestment,"Marketing: -€15.5m
+PBO: +€5.2m on cost, not growth","Release funding in tranches
+OLIVE recovery  |  COBALT scale  |  SKY diagnostic",Protect portfolio PBO and payback; do not restore the full budget at once

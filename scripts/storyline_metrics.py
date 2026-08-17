@@ -191,6 +191,78 @@ def _load_market() -> pd.DataFrame:
     return market
 
 
+MARKET_SEGMENTS = ["Mainstream", "Economy", "Premium"]
+SEGMENT_ROW_ORDER = ["Category", *MARKET_SEGMENTS]
+
+
+def _build_market_segment(market: pd.DataFrame) -> pd.DataFrame:
+    """Market size and growth by segment, for the Total and MT channels.
+
+    The workbook gives a Category total per channel plus one row per named brand.
+    Segment rows are summed from the named brands, and they do *not* add up to
+    Category: the named brands cover roughly 83% of the Total-channel category and
+    91% of MT.  ``Category`` is therefore always the file's own number, never a sum
+    of the three segments, and ``segment_coverage_pct`` records the gap so a chart
+    can state it rather than quietly reconciling it away.
+    """
+    rows = []
+    for channel in ("Total", "MT"):
+        block = market.loc[market["channel"].eq(channel)]
+        # Named brands only.  The block also carries a Category total and a UniSweet
+        # manufacturer total, both with no brand; either one would double-count.
+        brands = block.loc[block["manufacturer"].ne("Category") & block["brand"].notna()]
+        category = block.loc[block["manufacturer"].eq("Category")].iloc[0]
+        unisweet = block.loc[block["manufacturer"].eq("UNISWEET") & block["brand"].isna()].iloc[0]
+        coverage = _ratio(brands["sales_value_mat_1_meur"].sum(),
+                          category["sales_value_mat_1_meur"]) * 100
+
+        rows.append({
+            "channel": channel,
+            "segment": "Category",
+            "mat1_meur": float(category["sales_value_mat_1_meur"]),
+            "mat_meur": float(category["sales_value_mat_meur"]),
+            "unisweet_share_movement_pp": float(unisweet["share_movement_pp"]),
+            "segment_coverage_pct": float(coverage),
+        })
+        for segment in MARKET_SEGMENTS:
+            part = brands.loc[brands["segment"].eq(segment)]
+            ours = part.loc[part["manufacturer"].eq("UNISWEET")]
+            rows.append({
+                "channel": channel,
+                "segment": segment,
+                "mat1_meur": float(part["sales_value_mat_1_meur"].sum()),
+                "mat_meur": float(part["sales_value_mat_meur"].sum()),
+                "unisweet_share_movement_pp": float(ours["share_movement_pp"].sum()),
+                "segment_coverage_pct": float(coverage),
+            })
+
+    frame = pd.DataFrame(rows)
+    frame["growth_pct"] = _ratio(frame["mat_meur"], frame["mat1_meur"]) - 1
+    frame["change_meur"] = frame["mat_meur"] - frame["mat1_meur"]
+    return frame
+
+
+def _build_olive_mt_monthly(sales: pd.DataFrame) -> pd.DataFrame:
+    """OLIVE gross sales value in the MT channel, by month, prior versus current year.
+
+    The single worst cell in the business: the brand that lost the most value, in
+    the channel that lost the most share.
+    """
+    olive = sales.loc[sales["brand_name"].eq("OLIVE") & sales["channel_code"].eq("MT")]
+    wide = (olive.pivot_table(index="month_number", columns="reporting_year",
+                              values="gsv_keur", aggfunc="sum")
+            .reindex(range(1, 13))
+            .fillna(0.0))
+    frame = pd.DataFrame({
+        "month_number": wide.index.astype(int),
+        f"gsv_keur_{PRIOR_YEAR}": wide[PRIOR_YEAR].to_numpy(),
+        f"gsv_keur_{CURRENT_YEAR}": wide[CURRENT_YEAR].to_numpy(),
+    })
+    frame["gsv_change_keur"] = frame[f"gsv_keur_{CURRENT_YEAR}"] - frame[f"gsv_keur_{PRIOR_YEAR}"]
+    frame["half"] = np.where(frame["month_number"] <= 6, "H1", "H2")
+    return frame
+
+
 def build_storyline_metrics() -> dict[str, pd.DataFrame]:
     """Build the chart-ready metric registry for the report visual library."""
     sales = _load_sales()
@@ -209,6 +281,12 @@ def build_storyline_metrics() -> dict[str, pd.DataFrame]:
             ["GSV", total[f"gsv_keur_{PRIOR_YEAR}"], total[f"gsv_keur_{CURRENT_YEAR}"], "kEUR"],
             ["Turnover", total[f"turnover_keur_{PRIOR_YEAR}"], total[f"turnover_keur_{CURRENT_YEAR}"], "kEUR"],
             ["Discount / GSV", total[f"discount_pct_gsv_{PRIOR_YEAR}"], total[f"discount_pct_gsv_{CURRENT_YEAR}"], "%"],
+            # Discount stated on Turnover, which is the convention the P&L reports and
+            # the one the scorecard quotes. On GSV the same movement barely registers.
+            ["Discount / TO",
+             _ratio(pnl_total[f"discount_{PRIOR_YEAR}_keur"], pnl_total[f"turnover_{PRIOR_YEAR}_keur"]),
+             _ratio(pnl_total[f"discount_{CURRENT_YEAR}_keur"], pnl_total[f"turnover_{CURRENT_YEAR}_keur"]),
+             "%"],
             ["Gross Margin", pnl_total[f"gross_margin_pct_{PRIOR_YEAR}"], pnl_total[f"gross_margin_pct_{CURRENT_YEAR}"], "%"],
             ["Gross Profit", pnl_total[f"gross_profit_{PRIOR_YEAR}_keur"], pnl_total[f"gross_profit_{CURRENT_YEAR}_keur"], "kEUR"],
             ["Marketing Expense", pnl_total[f"marketing_{PRIOR_YEAR}_keur"], pnl_total[f"marketing_{CURRENT_YEAR}_keur"], "kEUR"],
@@ -411,6 +489,8 @@ def build_storyline_metrics() -> dict[str, pd.DataFrame]:
         "headline": headline,
         "topline_bridge": topline_bridge,
         "market_share_bridge": market_share_bridge,
+        "market_segment": _build_market_segment(market),
+        "olive_mt_monthly": _build_olive_mt_monthly(sales),
         "channel": channel,
         "monthly": monthly,
         "customer": customer,

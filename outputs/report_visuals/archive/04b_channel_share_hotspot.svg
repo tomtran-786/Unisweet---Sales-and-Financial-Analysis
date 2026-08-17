@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T10:27:27.425633</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 153.6 442.8 
+L 892.8 442.8 
+L 892.8 108 
+L 153.6 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #595959; font: 700 13px 'Arial'; text-anchor: end" x="150.1" y="349.802578" transform="rotate(-0 150.1 349.802578)">DT</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 700 13px 'Arial'; text-anchor: end" x="150.1" y="210.302578" transform="rotate(-0 150.1 210.302578)">MT</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 736.263529 381.42 
+L 712.061252 381.42 
+L 712.061252 308.88 
+L 736.263529 308.88 
+z
+" clip-path="url(#p2f5696c693)" style="fill: #8c8c8c"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 736.263529 241.92 
+L 208.313845 241.92 
+L 208.313845 169.38 
+L 736.263529 169.38 
+z
+" clip-path="url(#p2f5696c693)" style="fill: #f79545"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 736.263529 442.8 
+L 736.263529 108 
+" clip-path="url(#p2f5696c693)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_3">
+    <text style="fill: #595959; font: 14px 'Arial'; text-anchor: end" x="703.364781" y="348.79" transform="rotate(-0 703.364781 348.79)">-0.28 pp</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="744.96" y="347.75" transform="rotate(-0 744.96 347.75)">NAVY +0.84 pp</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #262626; font: 700 14px 'Arial'; text-anchor: middle" x="472.288687" y="209.299844" transform="rotate(-0 472.288687 209.299844)">-6.07 pp</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="744.96" y="208.296094" transform="rotate(-0 744.96 208.296094)">LILAC +5.53 pp</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(160.992 123.285375)">MT lost over six points;</text>
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(160.992 136.13625)">LILAC gained 5.53 points</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.43125" transform="rotate(-0 52.8 35.43125)">MT is the relative hotspot with a 6.07-point share loss</text>
+  </g>
+  <g id="text_9">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.271641" transform="rotate(-0 52.8 54.271641)">UniSweet value-share movement, points | MAT Nov'24 versus MAT-1</text>
+  </g>
+  <g id="text_10">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: Market Report MAT Nov'24.xlsx  |  Market MAT view; internal Sales uses a separate FY period</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p2f5696c693">
+   <rect x="153.6" y="108" width="739.2" height="334.8"/>
+  </clipPath>
+ </defs>
+</svg>

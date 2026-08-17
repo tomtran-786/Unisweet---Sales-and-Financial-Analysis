@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T14:31:00.604810</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 96 410.4 
+L 633.6 410.4 
+L 633.6 140.4 
+L 96 140.4 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #262626; font: 700 15px 'Arial'; text-anchor: end" x="92.5" y="224.518359" transform="rotate(-0 92.5 224.518359)">COBALT</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 700 15px 'Arial'; text-anchor: end" x="92.5" y="337.018359" transform="rotate(-0 92.5 337.018359)">SKY</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 96 215.775 
+L 167.19762 215.775 
+L 167.19762 182.025 
+L 96 182.025 
+z
+" clip-path="url(#p223b60b196)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 96 256.275 
+L 175.475563 256.275 
+L 175.475563 222.525 
+L 96 222.525 
+z
+" clip-path="url(#p223b60b196)" style="fill: url(#h9f9ea1948d); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 96 328.275 
+L 542.78453 328.275 
+L 542.78453 294.525 
+L 96 294.525 
+z
+" clip-path="url(#p223b60b196)" style="fill: #bfbfbf; stroke: #d9d9d9; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 96 368.775 
+L 509.538462 368.775 
+L 509.538462 335.025 
+L 96 335.025 
+z
+" clip-path="url(#p223b60b196)" style="fill: #f79545; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_3">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="172.160082" y="201.485156" transform="rotate(-0 172.160082 201.485156)">8.38</text>
+   </g>
+   <g id="text_4">
+    <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: start" x="180.438025" y="242.505" transform="rotate(-0 180.438025 242.505)">9.35   (+11.6%)</text>
+   </g>
+   <g id="text_5">
+    <text style="fill: #595959; font: 10px 'Arial'; text-anchor: start" x="547.746992" y="313.985156" transform="rotate(-0 547.746992 313.985156)">52.56</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 12px 'Arial'; text-anchor: start" x="514.500923" y="355.005" transform="rotate(-0 514.500923 355.005)">48.65   (-7.4%)</text>
+   </g>
+  </g>
+  <g id="text_7">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.643281" transform="rotate(-0 52.8 35.643281)">COBALT is compounding; SKY is losing sell-in into a market that grew 23.8%</text>
+  </g>
+  <g id="text_8">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.271641" transform="rotate(-0 52.8 54.271641)">Turnover, EURm  |  FY2024 versus FY2023  |  Paler bar: FY2023</text>
+  </g>
+  <g id="text_9">
+   <text style="fill: #595959; font: 700 11.5px 'Arial'; text-anchor: start" x="667.2" y="224.1" transform="rotate(-0 667.2 224.1)">COBALT  |  market +3.9%, share +0.56pp</text>
+  </g>
+  <g id="text_10">
+   <text style="fill: #262626; font: 700 13px 'Arial'" transform="translate(667.2 260.563594)">Sell-in and market move together.</text>
+   <text style="fill: #262626; font: 700 13px 'Arial'" transform="translate(667.2 274.656)">Scale it - once incremental PBO is proven.</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #595959; font: 700 11.5px 'Arial'; text-anchor: start" x="667.2" y="356.4" transform="rotate(-0 667.2 356.4)">SKY  |  market +23.8%, share +0.45pp</text>
+  </g>
+  <g id="text_12">
+   <text style="fill: #262626; font: 700 13px 'Arial'" transform="translate(667.2 392.863594)">Sell-in and market move apart.</text>
+   <text style="fill: #262626; font: 700 13px 'Arial'" transform="translate(667.2 406.785375)">Diagnose it before funding it.</text>
+  </g>
+  <g id="text_13">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: P&amp;L Table.xlsx and Market Report MAT Nov'24.xlsx  |  Internal Turnover is FY sell-in; market value is MAT Nov'24 sell-out - different periods and different measures</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p223b60b196">
+   <rect x="96" y="140.4" width="537.6" height="270"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="h9f9ea1948d" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#5886a5"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #004c6d; stroke: #004c6d; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>

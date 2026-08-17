@@ -1,0 +1,4 @@
+action,title,owner,first_gate,core_kpi,visual_id,evidence,gate,scale_rule
+2,"Action 2: classify trade spend as keep, test, redesign or stop",Sales Head,"Classify spend: keep, test, redesign or stop",Promotion ROI and Discount/GSV,11b_action_trade_spend,"Discount / GSV: +62 bps
+Rate-hold diagnostic: €2.17m","Classify each customer × SKU intervention
+Keep  |  Test  |  Redesign  |  Stop",Keep only proven positive incremental GP; redesign margin or execution misses

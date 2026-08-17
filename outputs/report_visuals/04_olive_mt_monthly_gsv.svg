@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T14:31:00.359438</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 57.6 464.4 
+L 868.8 464.4 
+L 868.8 108 
+L 57.6 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 429.141985 464.4 
+L 794.491603 464.4 
+L 794.491603 108 
+L 429.141985 108 
+z
+" clip-path="url(#p60e36d6055)" style="fill: #ffdbc1; opacity: 0.22; stroke: #ffdbc1; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="88.561832" y="475.773594" transform="rotate(-0 88.561832 475.773594)">Jan</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="150.485496" y="475.773594" transform="rotate(-0 150.485496 475.773594)">Feb</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="212.40916" y="475.773594" transform="rotate(-0 212.40916 475.773594)">Mar</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="274.332824" y="475.773594" transform="rotate(-0 274.332824 475.773594)">Apr</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="336.256489" y="475.773594" transform="rotate(-0 336.256489 475.773594)">May</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6"/>
+     <g id="text_6">
+      <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="398.180153" y="475.773594" transform="rotate(-0 398.180153 475.773594)">Jun</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7"/>
+     <g id="text_7">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="460.103817" y="475.773594" transform="rotate(-0 460.103817 475.773594)">Jul</text>
+     </g>
+    </g>
+    <g id="xtick_8">
+     <g id="line2d_8"/>
+     <g id="text_8">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="522.027481" y="475.773594" transform="rotate(-0 522.027481 475.773594)">Aug</text>
+     </g>
+    </g>
+    <g id="xtick_9">
+     <g id="line2d_9"/>
+     <g id="text_9">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="583.951145" y="475.907656" transform="rotate(-0 583.951145 475.907656)">Sep</text>
+     </g>
+    </g>
+    <g id="xtick_10">
+     <g id="line2d_10"/>
+     <g id="text_10">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="645.874809" y="475.773594" transform="rotate(-0 645.874809 475.773594)">Oct</text>
+     </g>
+    </g>
+    <g id="xtick_11">
+     <g id="line2d_11"/>
+     <g id="text_11">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="707.798473" y="475.773594" transform="rotate(-0 707.798473 475.773594)">Nov</text>
+     </g>
+    </g>
+    <g id="xtick_12">
+     <g id="line2d_12"/>
+     <g id="text_12">
+      <text style="fill: #262626; font: 11px 'Arial'; text-anchor: middle" x="769.722137" y="475.773594" transform="rotate(-0 769.722137 475.773594)">Dec</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_13"/>
+     <g id="text_13">
+      <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: end" x="54.1" y="468.157852" transform="rotate(-0 54.1 468.157852)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_14"/>
+     <g id="text_14">
+      <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: end" x="54.1" y="386.292817" transform="rotate(-0 54.1 386.292817)">2</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_15"/>
+     <g id="text_15">
+      <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: end" x="54.1" y="304.427783" transform="rotate(-0 54.1 304.427783)">4</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_16"/>
+     <g id="text_16">
+      <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: end" x="54.1" y="222.562749" transform="rotate(-0 54.1 222.562749)">6</text>
+     </g>
+    </g>
+    <g id="text_17">
+     <text style="fill: #595959; font: 11px 'Arial'; text-anchor: middle" x="36.074766" y="286.2" transform="rotate(-90 36.074766 286.2)">GSV, EURm</text>
+    </g>
+   </g>
+   <g id="PolyCollection_1">
+    <path d="M 88.561832 260.899898 
+L 88.561832 260.899898 
+L 150.485496 286.34355 
+L 212.40916 264.399628 
+L 274.332824 254.461213 
+L 336.256489 250.666768 
+L 398.180153 247.871077 
+L 460.103817 249.225944 
+L 522.027481 245.0672 
+L 583.951145 241.436486 
+L 645.874809 249.639362 
+L 700.21126 305.002211 
+L 645.874809 301.525421 
+L 583.951145 294.472748 
+L 522.027481 294.722437 
+L 460.103817 305.090643 
+L 398.180153 275.754308 
+L 336.256489 256.892604 
+L 274.332824 268.95951 
+L 212.40916 278.144767 
+L 150.485496 341.991307 
+L 88.561832 265.205998 
+z
+" clip-path="url(#p60e36d6055)" style="fill: #ffdbc1; fill-opacity: 0.85; stroke: #ffdbc1; stroke-opacity: 0.85"/>
+    <path d="M 719.279031 294.319208 
+L 769.722137 213.414085 
+L 769.722137 213.414085 
+L 769.722137 245.247303 
+z
+" clip-path="url(#p60e36d6055)" style="fill: #ffdbc1; fill-opacity: 0.85; stroke: #ffdbc1; stroke-opacity: 0.85"/>
+   </g>
+   <g id="PolyCollection_2">
+    <defs>
+     <path id="m8bc1e4e7d6" d="M 700.21126 -234.997789 
+L 707.798473 -227.267256 
+L 719.279031 -245.680792 
+L 707.798473 -234.512311 
+z
+" style="stroke: #c1e7ff; stroke-opacity: 0.9"/>
+    </defs>
+    <g clip-path="url(#p60e36d6055)">
+     <use xlink:href="#m8bc1e4e7d6" x="0" y="540" style="fill: #c1e7ff; fill-opacity: 0.9; stroke: #c1e7ff; stroke-opacity: 0.9"/>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 57.6 464.4 
+L 57.6 108 
+" style="fill: none; stroke: #d9d9d9; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_17">
+    <path d="M 88.561832 260.899898 
+L 150.485496 286.34355 
+L 212.40916 264.399628 
+L 274.332824 254.461213 
+L 336.256489 250.666768 
+L 398.180153 247.871077 
+L 460.103817 249.225944 
+L 522.027481 245.0672 
+L 583.951145 241.436486 
+L 645.874809 249.639362 
+L 707.798473 312.732744 
+L 769.722137 213.414085 
+" clip-path="url(#p60e36d6055)" style="fill: none; stroke: #8c8c8c; stroke-width: 2.2; stroke-linecap: square"/>
+   </g>
+   <g id="text_18">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="150.485496" y="356.056213" transform="rotate(-0 150.485496 356.056213)">3.0</text>
+   </g>
+   <g id="text_19">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="460.103817" y="319.155549" transform="rotate(-0 460.103817 319.155549)">3.9</text>
+   </g>
+   <g id="text_20">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="522.027481" y="308.787342" transform="rotate(-0 522.027481 308.787342)">4.1</text>
+   </g>
+   <g id="text_21">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="583.951145" y="308.537654" transform="rotate(-0 583.951145 308.537654)">4.2</text>
+   </g>
+   <g id="text_22">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="645.874809" y="315.590327" transform="rotate(-0 645.874809 315.590327)">4.0</text>
+   </g>
+   <g id="text_23">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="707.798473" y="298.094352" transform="rotate(-0 707.798473 298.094352)">3.9</text>
+   </g>
+   <g id="text_24">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: middle" x="769.722137" y="259.312209" transform="rotate(-0 769.722137 259.312209)">5.4</text>
+   </g>
+   <g id="text_25">
+    <text style="fill: #595959; font: 700 13.5px 'Arial'; text-anchor: start" x="787.060763" y="216.913538" transform="rotate(-0 787.060763 216.913538)">FY2023</text>
+   </g>
+   <g id="text_26">
+    <text style="fill: #262626; font: 700 13.5px 'Arial'; text-anchor: start" x="787.060763" y="248.746756" transform="rotate(-0 787.060763 248.746756)">FY2024</text>
+   </g>
+   <g id="text_27">
+    <text style="fill: #004c6d; font: 700 14px 'Arial'" transform="translate(69.768 121.755562)">H2 (shaded): -5.74m of the -8.73m FY gap</text>
+    <text style="fill: #004c6d; font: 700 14px 'Arial'" transform="translate(69.768 136.777125)">November is the only month above FY2023</text>
+   </g>
+   <g id="line2d_18">
+    <path d="M 88.561832 265.205998 
+L 150.485496 341.991307 
+L 212.40916 278.144767 
+L 274.332824 268.95951 
+L 336.256489 256.892604 
+L 398.180153 275.754308 
+L 460.103817 305.090643 
+L 522.027481 294.722437 
+L 583.951145 294.472748 
+L 645.874809 301.525421 
+L 707.798473 305.487689 
+L 769.722137 245.247303 
+" clip-path="url(#p60e36d6055)" style="fill: none; stroke: #f79545; stroke-width: 3; stroke-linecap: square"/>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="md4ca917d2e" d="M 0 2.738613 
+C 0.726289 2.738613 1.422928 2.450055 1.936492 1.936492 
+C 2.450055 1.422928 2.738613 0.726289 2.738613 0 
+C 2.738613 -0.726289 2.450055 -1.422928 1.936492 -1.936492 
+C 1.422928 -2.450055 0.726289 -2.738613 0 -2.738613 
+C -0.726289 -2.738613 -1.422928 -2.450055 -1.936492 -1.936492 
+C -2.450055 -1.422928 -2.738613 -0.726289 -2.738613 0 
+C -2.738613 0.726289 -2.450055 1.422928 -1.936492 1.936492 
+C -1.422928 2.450055 -0.726289 2.738613 0 2.738613 
+z
+" style="stroke: #ffffff; stroke-width: 0.9"/>
+    </defs>
+    <g clip-path="url(#p60e36d6055)">
+     <use xlink:href="#md4ca917d2e" x="150.485496" y="341.991307" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="460.103817" y="305.090643" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="522.027481" y="294.722437" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="583.951145" y="294.472748" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="645.874809" y="301.525421" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="707.798473" y="305.487689" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+     <use xlink:href="#md4ca917d2e" x="769.722137" y="245.247303" style="fill: #f79545; stroke: #ffffff; stroke-width: 0.9"/>
+    </g>
+   </g>
+  </g>
+  <g id="text_28">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.362969" transform="rotate(-0 52.8 35.362969)">OLIVE in MT lost €8.73m of GSV, two thirds of it after June</text>
+  </g>
+  <g id="text_29">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">OLIVE gross sales value in Modern Trade, EURm per month  |  FY2024 versus FY2023</text>
+  </g>
+  <g id="text_30">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Internal sell-in GSV on the raw reporting base; monthly weakness does not by itself establish seasonality</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p60e36d6055">
+   <rect x="57.6" y="108" width="811.2" height="356.4"/>
+  </clipPath>
+ </defs>
+</svg>

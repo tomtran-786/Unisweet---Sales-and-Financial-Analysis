@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T10:27:27.713035</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 192 459 
+L 912 459 
+L 912 108 
+L 192 108 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #262626; font: 12px 'Arial'; text-anchor: end" x="188.5" y="165.352827" transform="rotate(-0 188.5 165.352827)">POUCH 900GR</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #262626; font: 12px 'Arial'; text-anchor: end" x="188.5" y="246.980734" transform="rotate(-0 188.5 246.980734)">PACK 1.1KG</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #595959; font: 12px 'Arial'; text-anchor: end" x="188.5" y="328.608641" transform="rotate(-0 188.5 328.608641)">POUCH 100GR</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #595959; font: 12px 'Arial'; text-anchor: end" x="188.5" y="410.236548" transform="rotate(-0 188.5 410.236548)">PACK 250GR</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 873.854305 138.202326 
+L 251.969801 138.202326 
+L 251.969801 183.913953 
+L 873.854305 183.913953 
+z
+" clip-path="url(#p251383e319)" style="fill: #f79545"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 873.854305 219.830233 
+L 373.063311 219.830233 
+L 373.063311 265.54186 
+L 873.854305 265.54186 
+z
+" clip-path="url(#p251383e319)" style="fill: #f79545"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 873.854305 301.45814 
+L 685.900927 301.45814 
+L 685.900927 347.169767 
+L 873.854305 347.169767 
+z
+" clip-path="url(#p251383e319)" style="fill: #8c8c8c"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 873.854305 383.086047 
+L 764.709934 383.086047 
+L 764.709934 428.797674 
+L 873.854305 428.797674 
+z
+" clip-path="url(#p251383e319)" style="fill: #8c8c8c"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 873.854305 459 
+L 873.854305 108 
+" clip-path="url(#p251383e319)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_5">
+    <text style="fill: #262626; font: 700 11.5px 'Arial'; text-anchor: start" x="260.552583" y="164.039155" transform="rotate(-0 260.552583 164.039155)">-13.04m</text>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 11.5px 'Arial'; text-anchor: start" x="381.646093" y="245.667062" transform="rotate(-0 381.646093 245.667062)">-10.50m</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="694.483709" y="327.286883" transform="rotate(-0 694.483709 327.286883)">-3.94m</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="773.292715" y="408.91479" transform="rotate(-0 773.292715 408.91479)">-2.29m</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(199.2 120.245625)">The top two formats exceed</text>
+    <text style="fill: #004c6d; font: 700 12px 'Arial'" transform="translate(199.2 132.921)">the total company decline</text>
+   </g>
+  </g>
+  <g id="text_10">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.362969" transform="rotate(-0 52.8 35.362969)">POUCH 900GR and PACK 1.1KG drive €23.55m of the loss</text>
+  </g>
+  <g id="text_11">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">TO change, EURm | FY2024 versus FY2023 | Exact-product change</text>
+  </g>
+  <g id="text_12">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Pack names identify formats; they do not support physical-volume inference</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p251383e319">
+   <rect x="192" y="108" width="720" height="351"/>
+  </clipPath>
+ </defs>
+</svg>

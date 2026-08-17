@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="960pt" height="540pt" viewBox="0 0 960 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-17T10:27:28.122368</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.9.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 960 540 
+L 960 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 220.8 442.8 
+L 497.612175 442.8 
+L 497.612175 118.8 
+L 220.8 118.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="fill: #595959; font: 700 10.5px 'Arial'; text-anchor: end" x="217.3" y="154.291989" transform="rotate(-0 217.3 154.291989)">Bliss  |  POUCH 900GR</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="fill: #595959; font: 700 10.5px 'Arial'; text-anchor: end" x="217.3" y="219.456912" transform="rotate(-0 217.3 219.456912)">Candies  |  PACK 1.1KG</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="fill: #595959; font: 700 10.5px 'Arial'; text-anchor: end" x="217.3" y="284.621836" transform="rotate(-0 217.3 284.621836)">Macarons  |  POUCH 900GR</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="fill: #595959; font: 700 10.5px 'Arial'; text-anchor: end" x="217.3" y="349.78676" transform="rotate(-0 217.3 349.78676)">Macarons  |  PACK 1.1KG</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="fill: #595959; font: 700 10.5px 'Arial'; text-anchor: end" x="217.3" y="414.951683" transform="rotate(-0 217.3 414.951683)">Macarons  |  POUCH 100GR</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 480.577579 133.527273 
+L 240.006506 133.527273 
+L 240.006506 167.413033 
+L 480.577579 167.413033 
+z
+" clip-path="url(#pcdda2f117a)" style="fill: #fdb177"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 480.577579 198.692196 
+L 343.811072 198.692196 
+L 343.811072 232.577957 
+L 480.577579 232.577957 
+z
+" clip-path="url(#pcdda2f117a)" style="fill: #fdb177"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 480.577579 263.85712 
+L 367.23364 263.85712 
+L 367.23364 297.74288 
+L 480.577579 297.74288 
+z
+" clip-path="url(#pcdda2f117a)" style="fill: #fdb177"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 480.577579 329.022043 
+L 459.637803 329.022043 
+L 459.637803 362.907804 
+L 480.577579 362.907804 
+z
+" clip-path="url(#pcdda2f117a)" style="fill: #fdb177"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 480.577579 394.186967 
+L 472.848132 394.186967 
+L 472.848132 428.072727 
+L 480.577579 428.072727 
+z
+" clip-path="url(#pcdda2f117a)" style="fill: #fdb177"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 480.577579 442.8 
+L 480.577579 118.8 
+" clip-path="url(#pcdda2f117a)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_6">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="244.265155" y="153.19195" transform="rotate(-0 244.265155 153.19195)">-5.65m</text>
+   </g>
+   <g id="text_7">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="348.069721" y="218.356873" transform="rotate(-0 348.069721 218.356873)">-3.21m</text>
+   </g>
+   <g id="text_8">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="371.492289" y="283.521797" transform="rotate(-0 371.492289 283.521797)">-2.66m</text>
+   </g>
+   <g id="text_9">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="463.896452" y="348.68672" transform="rotate(-0 463.896452 348.68672)">-0.49m</text>
+   </g>
+   <g id="text_10">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="477.10678" y="413.851644" transform="rotate(-0 477.10678 413.851644)">-0.18m</text>
+   </g>
+   <g id="text_11">
+    <text style="fill: #004c6d; font: 700 14px 'Arial'; text-anchor: start" x="220.8" y="112.8" transform="rotate(-0 220.8 112.8)">TO change, EURm</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 579.82539 442.8 
+L 912 442.8 
+L 912 118.8 
+L 579.82539 118.8 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_3"/>
+   <g id="matplotlib.axis_4">
+    <g id="ytick_6">
+     <g id="line2d_7"/>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_8"/>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_9"/>
+    </g>
+    <g id="ytick_9">
+     <g id="line2d_10"/>
+    </g>
+    <g id="ytick_10">
+     <g id="line2d_11"/>
+    </g>
+   </g>
+   <g id="patch_9">
+    <path d="M 804.605201 133.527273 
+L 830.061015 133.527273 
+L 830.061015 167.413033 
+L 804.605201 167.413033 
+z
+" clip-path="url(#p3af24ae2df)" style="fill: url(#hd082faa8fc); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 804.605201 198.692196 
+L 814.849428 198.692196 
+L 814.849428 232.577957 
+L 804.605201 232.577957 
+z
+" clip-path="url(#p3af24ae2df)" style="fill: url(#hd082faa8fc); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 804.605201 263.85712 
+L 808.238383 263.85712 
+L 808.238383 297.74288 
+L 804.605201 297.74288 
+z
+" clip-path="url(#p3af24ae2df)" style="fill: url(#hd082faa8fc); stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 804.605201 329.022043 
+L 783.827214 329.022043 
+L 783.827214 362.907804 
+L 804.605201 362.907804 
+z
+" clip-path="url(#p3af24ae2df)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 804.605201 394.186967 
+L 602.7827 394.186967 
+L 602.7827 428.072727 
+L 804.605201 428.072727 
+z
+" clip-path="url(#p3af24ae2df)" style="fill: #5886a5; stroke: #004c6d; stroke-width: 0.6; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_12">
+    <path d="M 804.605201 442.8 
+L 804.605201 118.8 
+" clip-path="url(#p3af24ae2df)" style="fill: none; stroke: #bfbfbf; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="834.556612" y="153.19195" transform="rotate(-0 834.556612 153.19195)">+102</text>
+   </g>
+   <g id="text_13">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="819.345024" y="218.356873" transform="rotate(-0 819.345024 218.356873)">+41</text>
+   </g>
+   <g id="text_14">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: start" x="812.733979" y="283.521797" transform="rotate(-0 812.733979 283.521797)">+15</text>
+   </g>
+   <g id="text_15">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: end" x="779.331618" y="348.68672" transform="rotate(-0 779.331618 348.68672)">-83</text>
+   </g>
+   <g id="text_16">
+    <text style="fill: #262626; font: 700 10.5px 'Arial'; text-anchor: end" x="598.287104" y="413.851644" transform="rotate(-0 598.287104 413.851644)">-808</text>
+   </g>
+   <g id="text_17">
+    <text style="fill: #004c6d; font: 700 14px 'Arial'; text-anchor: start" x="579.82539" y="112.8" transform="rotate(-0 579.82539 112.8)">Discount / GSV movement, bps</text>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="fill: #004c6d; font: 700 23px 'Arial'; text-anchor: start" x="52.8" y="35.362969" transform="rotate(-0 52.8 35.362969)">Discount moves both ways across losses—price alone is not the answer</text>
+  </g>
+  <g id="text_19">
+   <text style="fill: #595959; font: 11.5px 'Arial'; text-anchor: start" x="52.8" y="54.278828" transform="rotate(-0 52.8 54.278828)">OLIVE customer × SKU diagnostics | FY2024 versus FY2023</text>
+  </g>
+  <g id="text_20">
+   <text style="fill: #595959; font: 10.5px 'Arial'; text-anchor: start" x="52.8" y="483.3" transform="rotate(-0 52.8 483.3)">Losses remain where discount intensity rose (+15 to +102 bps) and where it fell (-83 to -808 bps).</text>
+  </g>
+  <g id="text_21">
+   <text style="fill: #bfbfbf; font: 8.5px 'Arial'; text-anchor: start" x="52.8" y="524.711016" transform="rotate(-0 52.8 524.711016)">Source: outputs/sales_master.csv  |  Discount movement is diagnostic and does not establish promotion causality</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcdda2f117a">
+   <rect x="220.8" y="118.8" width="276.812175" height="324"/>
+  </clipPath>
+  <clipPath id="p3af24ae2df">
+   <rect x="579.82539" y="118.8" width="332.17461" height="324"/>
+  </clipPath>
+ </defs>
+ <defs>
+  <pattern id="hd082faa8fc" patternUnits="userSpaceOnUse" x="0" y="0" width="72" height="72">
+   <rect x="0" y="0" width="73" height="73" fill="#f79545"/>
+   <path d="M -36 36 
+L 36 -36 
+M -32 40 
+L 40 -32 
+M -28 44 
+L 44 -28 
+M -24 48 
+L 48 -24 
+M -20 52 
+L 52 -20 
+M -16 56 
+L 56 -16 
+M -12 60 
+L 60 -12 
+M -8 64 
+L 64 -8 
+M -4 68 
+L 68 -4 
+M 0 72 
+L 72 0 
+M 4 76 
+L 76 4 
+M 8 80 
+L 80 8 
+M 12 84 
+L 84 12 
+M 16 88 
+L 88 16 
+M 20 92 
+L 92 20 
+M 24 96 
+L 96 24 
+M 28 100 
+L 100 28 
+M 32 104 
+L 104 32 
+M 36 108 
+L 108 36 
+" style="fill: #004c6d; stroke: #004c6d; stroke-width: 1.0; stroke-linecap: butt; stroke-linejoin: miter"/>
+  </pattern>
+ </defs>
+</svg>
